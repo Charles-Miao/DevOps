@@ -13,7 +13,7 @@ DELL服务器：OMSA
 
 **语言**
 
-Server端：
+Client端：
 
 - python
 
