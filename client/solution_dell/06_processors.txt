@@ -1,0 +1,21 @@
+Processors Information
+
+Health : Ok
+
+Index             : 0
+Status            : Ok
+Connector Name    : CPU1
+Processor Brand   : Intel(R) Xeon(R) CPU           E5430  @ 2.66GHz
+Processor Version : Model 23 Stepping 6
+Current Speed     : 2667  MHz
+State             : Present
+Core Count        : 4
+
+Index             : 1
+Status            : Unknown
+Connector Name    : CPU2
+Processor Brand   : [Not Occupied]
+Processor Version : NA
+Current Speed     : NA
+State             : NA
+Core Count        : NA

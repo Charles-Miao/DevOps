@@ -1,0 +1,39 @@
+Network Interfaces Information
+
+Total Number of Network Interfaces : 6
+
+Index             : 0
+IP Address        : 172.168.168.100
+Vendor            : Broadcom Corporation
+Description       : Broadcom BCM5708C NetXtreme II GigE
+Connection Status : Connected
+
+Index             : 1
+IP Address        : [Not Obtained]
+Vendor            : Broadcom Corporation
+Description       : Broadcom BCM5708C NetXtreme II GigE
+Connection Status : Disconnected
+
+Index             : 2
+IP Address        : 192.168.123.56
+Vendor            : Intel
+Description       : Intel(R) PRO/1000 PT Dual Port Server Adapter
+Connection Status : Connected
+
+Index             : 3
+IP Address        : 172.30.26.32
+Vendor            : Intel
+Description       : Intel(R) PRO/1000 PT Dual Port Server Adapter
+Connection Status : Connected
+
+Index             : 4
+IP Address        : 172.168.71.203
+Vendor            : Intel
+Description       : Intel(R) PRO/1000 PT Dual Port Server Adapter
+Connection Status : Disconnected
+
+Index             : 5
+IP Address        : 172.168.71.204
+Vendor            : Intel
+Description       : Intel(R) PRO/1000 PT Dual Port Server Adapter
+Connection Status : Disconnected

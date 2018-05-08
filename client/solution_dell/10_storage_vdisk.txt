@@ -1,0 +1,17 @@
+Virtual Disk 0 on Controller PERC 6/i Integrated (Embedded)
+
+Controller PERC 6/i Integrated (Embedded)
+ID                  : 0
+Status              : Ok
+Name                : System
+State               : Ready
+Progress            : Not Applicable
+Layout              : RAID-5
+Size                : 2,093.13 GB (2247475855360 bytes)
+Device Name         : Windows Disk 0
+Type                : SAS
+Read Policy         : Read Ahead
+Write Policy        : Write Through
+Cache Policy        : Not Applicable
+Stripe Element Size : 64 KB
+Disk Cache Policy   : Disabled

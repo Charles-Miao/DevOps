@@ -1,0 +1,14 @@
+Temperature Probes Information
+
+------------------------------------
+Main System Chassis Temperatures: Ok
+------------------------------------
+
+Index                     : 0
+Status                    : Ok
+Probe Name                : System Board Ambient Temp
+Reading                   : 20.0 C
+Minimum Warning Threshold : 8.0 C
+Maximum Warning Threshold : 42.0 C
+Minimum Failure Threshold : 3.0 C
+Maximum Failure Threshold : 47.0 C

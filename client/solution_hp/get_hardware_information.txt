@@ -1,0 +1,2 @@
+1. 登录HP System Mamagement Homepage查看硬体信息
+2. 通过网络爬虫技术进入web界面抓取所需要的特定硬体信息

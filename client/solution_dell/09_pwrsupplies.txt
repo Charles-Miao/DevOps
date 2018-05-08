@@ -1,0 +1,28 @@
+Power Supplies Information
+
+---------------------------------------
+Main System Chassis Power Supplies : Ok
+---------------------------------------
+
+Power Supply Redundancy : Ok
+
+Attribute : Redundancy Status
+Value     : Full
+
+
+Individual Power Supply Elements
+Index                    : 0
+Status                   : Ok
+Location                 : PS 1 Status
+Type                     : AC
+Maximum Output Wattage   : 750 W
+Online Status            : Presence Detected
+Power Monitoring Capable : No
+
+Index                    : 1
+Status                   : Ok
+Location                 : PS 2 Status
+Type                     : AC
+Maximum Output Wattage   : 750 W
+Online Status            : Presence Detected
+Power Monitoring Capable : No

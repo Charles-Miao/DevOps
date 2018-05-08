@@ -1,0 +1,84 @@
+Memory Information
+
+Health : Ok
+
+Attributes of Memory Array(s)
+Attributes     : Location
+Memory Array 1 : System Board or Motherboard
+
+Attributes     : Use
+Memory Array 1 : System Memory
+
+Attributes     : Installed Capacity
+Memory Array 1 : 8192  MB
+
+Attributes     : Maximum Capacity
+Memory Array 1 : 65280  MB
+
+Attributes     : Slots Available
+Memory Array 1 : 8
+
+Attributes     : Slots Used
+Memory Array 1 : 4
+
+Attributes     : ECC Type
+Memory Array 1 : Multibit ECC
+
+Total of Memory Array(s)
+Attributes : Total Installed Capacity
+Value      : 8192  MB
+
+Attributes : Total Installed Capacity Available to the OS
+Value      : 8192  MB
+
+Attributes : Total Maximum Capacity
+Value      : 65280  MB
+
+Details of Memory Array 1
+Index          : 0
+Status         : Ok
+Connector Name : DIMM1 
+Type           : DDR2 FB-DIMM-SYNCHRONOUS
+Size           : 2048  MB
+
+Index          : 1
+Status         : Ok
+Connector Name : DIMM2 
+Type           : DDR2 FB-DIMM-SYNCHRONOUS
+Size           : 2048  MB
+
+Index          : 2
+Status         : Ok
+Connector Name : DIMM3 
+Type           : DDR2 FB-DIMM-SYNCHRONOUS
+Size           : 2048  MB
+
+Index          : 3
+Status         : Ok
+Connector Name : DIMM4 
+Type           : DDR2 FB-DIMM-SYNCHRONOUS
+Size           : 2048  MB
+
+Index          : 
+Status         : Unknown
+Connector Name : DIMM5 
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : DIMM6 
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : DIMM7 
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : DIMM8 
+Type           : [Not Occupied]
+Size           : 

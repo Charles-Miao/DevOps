@@ -1,0 +1,134 @@
+List of Physical Disks on Controller PERC 6/i Integrated (Embedded)
+
+Controller PERC 6/i Integrated (Embedded)
+ID                        : 0:0:0
+Status                    : Ok
+Name                      : Physical Disk 0:0:0
+State                     : Online
+Failure Predicted         : No
+Progress                  : Not Applicable
+Type                      : SAS
+Capacity                  : 418.63 GB (449495171072 bytes)
+Used RAID Disk Space      : 418.63 GB (449495171072 bytes)
+Available RAID Disk Space : 0.00 GB (0 bytes)
+Hot Spare                 : No
+Vendor ID                 : DELL    
+Product ID                : HUS154545VLS300 
+Revision                  : A4C2
+Serial No.                : JMV51YKC            
+Negotiated Speed          : Not Available
+Capable Speed             : Not Available
+Manufacture Day           : 01
+Manufacture Week          : 31
+Manufacture Year          : 2008
+SAS Address               : 5000CCA0090934C1
+
+ID                        : 0:0:1
+Status                    : Ok
+Name                      : Physical Disk 0:0:1
+State                     : Online
+Failure Predicted         : No
+Progress                  : Not Applicable
+Type                      : SAS
+Capacity                  : 418.63 GB (449495171072 bytes)
+Used RAID Disk Space      : 418.63 GB (449495171072 bytes)
+Available RAID Disk Space : 0.00 GB (0 bytes)
+Hot Spare                 : No
+Vendor ID                 : DELL(tm)
+Product ID                : HUS154545VLS300 
+Revision                  : D590
+Serial No.                : JMW1HWEC            
+Negotiated Speed          : Not Available
+Capable Speed             : Not Available
+Manufacture Day           : 01
+Manufacture Week          : 24
+Manufacture Year          : 2009
+SAS Address               : 5000CCA0093B1E05
+
+ID                        : 0:0:2
+Status                    : Ok
+Name                      : Physical Disk 0:0:2
+State                     : Online
+Failure Predicted         : No
+Progress                  : Not Applicable
+Type                      : SAS
+Capacity                  : 418.63 GB (449495171072 bytes)
+Used RAID Disk Space      : 418.63 GB (449495171072 bytes)
+Available RAID Disk Space : 0.00 GB (0 bytes)
+Hot Spare                 : No
+Vendor ID                 : DELL    
+Product ID                : HUS154545VLS300 
+Revision                  : A4C2
+Serial No.                : JMV30DSC            
+Negotiated Speed          : Not Available
+Capable Speed             : Not Available
+Manufacture Day           : 01
+Manufacture Week          : 31
+Manufacture Year          : 2008
+SAS Address               : 5000CCA009057AA1
+
+ID                        : 0:0:3
+Status                    : Ok
+Name                      : Physical Disk 0:0:3
+State                     : Online
+Failure Predicted         : No
+Progress                  : Not Applicable
+Type                      : SAS
+Capacity                  : 418.63 GB (449495171072 bytes)
+Used RAID Disk Space      : 418.63 GB (449495171072 bytes)
+Available RAID Disk Space : 0.00 GB (0 bytes)
+Hot Spare                 : No
+Vendor ID                 : DELL    
+Product ID                : HUS154545VLS300 
+Revision                  : A4C2
+Serial No.                : JMV66DJC            
+Negotiated Speed          : Not Available
+Capable Speed             : Not Available
+Manufacture Day           : 01
+Manufacture Week          : 31
+Manufacture Year          : 2008
+SAS Address               : 5000CCA0090B4911
+
+ID                        : 1:0:4
+Status                    : Ok
+Name                      : Physical Disk 1:0:4
+State                     : Online
+Failure Predicted         : No
+Progress                  : Not Applicable
+Type                      : SAS
+Capacity                  : 418.63 GB (449495171072 bytes)
+Used RAID Disk Space      : 418.63 GB (449495171072 bytes)
+Available RAID Disk Space : 0.00 GB (0 bytes)
+Hot Spare                 : No
+Vendor ID                 : DELL    
+Product ID                : HUS154545VLS300 
+Revision                  : A4C2
+Serial No.                : JMV6604C            
+Negotiated Speed          : Not Available
+Capable Speed             : Not Available
+Manufacture Day           : 01
+Manufacture Week          : 31
+Manufacture Year          : 2008
+SAS Address               : 5000CCA0090B4311
+
+ID                        : 1:0:5
+Status                    : Ok
+Name                      : Physical Disk 1:0:5
+State                     : Online
+Failure Predicted         : No
+Progress                  : Not Applicable
+Type                      : SAS
+Capacity                  : 418.63 GB (449495171072 bytes)
+Used RAID Disk Space      : 418.63 GB (449495171072 bytes)
+Available RAID Disk Space : 0.00 GB (0 bytes)
+Hot Spare                 : No
+Vendor ID                 : DELL    
+Product ID                : HUS154545VLS300 
+Revision                  : A4C2
+Serial No.                : JMV66PYC            
+Negotiated Speed          : Not Available
+Capable Speed             : Not Available
+Manufacture Day           : 01
+Manufacture Week          : 31
+Manufacture Year          : 2008
+SAS Address               : 5000CCA0090B4DA1

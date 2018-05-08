@@ -1,0 +1,144 @@
+System Summary
+
+------------------
+Software Profile
+------------------
+Systems Management
+Name                       : Dell OpenManage Server Administrator
+Version                    : 5.5.0
+Description                : Systems Management Software
+Contains                   : Broadcom SNMP Agent 10.18.04
+                           : Common Storage Module 3.0.0
+                           : Data Engine 5.8.0
+                           : Hardware Application Programming Interface 5.8.0
+                           : Instrumentation Service 5.8.0
+                           : Instrumentation Service Integration Layer 3.5.0
+                           : Intel SNMP Agent 1.66.0
+                           : OpenManage Inventory Collector 5.5.0
+                           : OpenManage Tools 3.5.0
+                           : Remote Access Controller Data Populator 5.8.0
+                           : Remote Access Controller Managed Node 5.5.0
+                           : Secure Port Server 3.5.0
+                           : Server Administrator Framework 3.5.0
+                           : Storage Management 3.0.0
+                           : Sun Java Runtime Environment 1.6.0
+
+Operating System
+Name                       : Microsoft Windows Server 2003 R2, Standard Edition
+Version                    : Version 5.2 (Build 3790 : Service Pack 2) (x86)
+System Time                : Mon May 07 18:53:15 2018
+System Bootup Time         : Mon Feb 19 14:42:50 2018
+
+--------
+System
+--------
+System
+Host Name                  : molly-web01
+System Location            : Please set the value
+
+---------------------
+Main System Chassis
+---------------------
+Chassis Information
+Chassis Model              : PowerEdge 2950
+System Revision            : III
+Chassis Service Tag        : 3BTLH2X
+Chassis Lock               : Present
+Chassis Asset Tag          : 
+
+Processor 1
+Processor Brand            : Intel(R) Xeon(R) CPU           E5430  @ 2.66GHz
+Processor Version          : Model 23 Stepping 6
+Voltage                    : 1400 mV
+
+Memory
+Total Installed Capacity   : 8192 MB
+Memory Available to the OS : 8192 MB
+Total Maximum Capacity     : 65280 MB
+Memory Array Count         : 1
+
+Memory Array 1
+Location                   : System Board or Motherboard
+Use                        : System Memory
+Installed Capacity         : 8192 MB
+Maximum Capacity           : 65280 MB
+Slots Available            : 8
+Slots Used                 : 4
+ECC Type                   : Multibit ECC
+
+Slot PCI1
+Adapter                    : PRO/1000 PT Family
+Type                       : PCI E
+Data Bus Width             : 8x or x8
+Speed                      : [Not Obtained, see card documentation]
+Slot Length                : Long
+Voltage Supply             : 3.3 Volts
+
+Slot PCI2
+Adapter                    : [Not Occupied]
+Type                       : PCI E
+Data Bus Width             : 8x or x8
+Speed                      : [Not Obtained, see card documentation]
+Slot Length                : Long
+Voltage Supply             : 3.3 Volts
+
+Slot PCI3
+Adapter                    : PRO/1000 PT Family
+Type                       : PCI E
+Data Bus Width             : 4x or x4
+Speed                      : [Not Obtained, see card documentation]
+Slot Length                : Long
+Voltage Supply             : 3.3 Volts
+
+BIOS Information
+Manufacturer               : Dell Inc.
+Version                    : 2.3.1
+Release Date               : 04/29/2008
+
+Firmware Information
+Name                       : Baseboard Management Controller
+Version                    : 2.37
+
+--------------
+Network Data
+--------------
+Network Interface 0
+IP Address                 : 172.168.168.100
+Subnet Mask                : 255.255.255.0
+Default Gateway            : 172.168.168.1
+MAC Address                : 00-1E-C9-F3-2E-94
+
+Network Interface 1
+IP Address                 : [No Value]
+MAC Address                : 00-1E-C9-F3-2E-96
+
+Network Interface 2
+IP Address                 : 192.168.123.56
+Subnet Mask                : 255.255.255.0
+MAC Address                : 00-15-17-8B-A4-4E
+
+Network Interface 3
+IP Address                 : 172.30.26.32
+Subnet Mask                : 255.255.255.0
+MAC Address                : 00-15-17-8B-A4-4F
+
+Network Interface 4
+IP Address                 : 172.168.71.203
+Subnet Mask                : 255.255.248.0
+MAC Address                : 00-15-17-8B-A4-4C
+
+Network Interface 5
+IP Address                 : 172.168.71.204
+Subnet Mask                : 255.255.248.0
+MAC Address                : 00-15-17-8B-A4-4D
+
+--------------------
+Storage Enclosures
+--------------------
+Storage Enclosures
+Name                       : Backplane
+Service Tag                : 87V02CK
+
+Storage Enclosures
+Name                       : Backplane
+Service Tag                : 87V02CK

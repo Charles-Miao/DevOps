@@ -1,0 +1,193 @@
+
+Smart Array P410i in Slot 0 (Embedded)
+   Bus Interface: PCI
+   Slot: 0
+   Serial Number: 50014380147AFEE0
+   Cache Serial Number: PBCDH0CRH1C7JZ
+   RAID 6 (ADG) Status: Disabled
+   Controller Status: OK
+   Hardware Revision: Rev C
+   Firmware Version: 3.66
+   Rebuild Priority: Medium
+   Expand Priority: Medium
+   Surface Scan Delay: 3 secs
+   Surface Scan Mode: Idle
+   Queue Depth: Automatic
+   Monitor and Performance Delay: 60 min
+   Elevator Sort: Enabled
+   Degraded Performance Optimization: Disabled
+   Inconsistency Repair Policy: Disabled
+   Wait for Cache Room: Disabled
+   Surface Analysis Inconsistency Notification: Disabled
+   Post Prompt Timeout: 15 secs
+   Cache Board Present: True
+   Cache Status: OK
+   Accelerator Ratio: 25% Read / 75% Write
+   Drive Write Cache: Disabled
+   Total Cache Size: 512 MB
+   No-Battery Write Cache: Disabled
+   Cache Backup Power Source: Capacitors
+   Battery/Capacitor Count: 1
+   Battery/Capacitor Status: OK
+   SATA NCQ Supported: True
+
+   Array: A
+      Interface Type: SAS
+      Unused Space: 0 MB
+      Status: OK
+
+
+
+      Logical Drive: 1
+         Size: 279.4 GB
+         Fault Tolerance: RAID 1
+         Heads: 255
+         Sectors Per Track: 32
+         Cylinders: 65535
+         Strip Size: 256 KB
+         Status: OK
+         Array Accelerator: Enabled
+         Unique Identifier: 600508B1001C75F06B141804EE565E71
+         Disk Name: \\.\PhysicalDrive0
+         Mount Points: C:\ 100.0 GB, D:\ 179.4 GB
+         Logical Drive Label: A4DF761050014380147AFEE08A37
+         Mirror Group 0:
+            physicaldrive 4C:1:2 (port 4C:box 1:bay 2, SAS, 300 GB, OK)
+         Mirror Group 1:
+            physicaldrive 4C:1:1 (port 4C:box 1:bay 1, SAS, 300 GB, OK)
+
+      physicaldrive 4C:1:1
+         Port: 4C
+         Box: 1
+         Bay: 1
+         Status: OK
+         Drive Type: Data Drive
+         Interface Type: SAS
+         Size: 300 GB
+         Rotational Speed: 10000
+         Firmware Revision: HPD6
+         Serial Number:         PMVLR9ZB
+         Model: HP      EG0300FBDBR     
+         Current Temperature (C): 22
+         Maximum Temperature (C): 42
+         PHY Count: 2
+         PHY Transfer Rate: 6.0GBPS, Unknown
+
+      physicaldrive 4C:1:2
+         Port: 4C
+         Box: 1
+         Bay: 2
+         Status: OK
+         Drive Type: Data Drive
+         Interface Type: SAS
+         Size: 300 GB
+         Rotational Speed: 10000
+         Firmware Revision: HPD5
+         Serial Number: 6XP2H8E70000B236GAUP
+         Model: HP      EG0300FBLSE     
+         Current Temperature (C): 22
+         Maximum Temperature (C): 44
+         PHY Count: 2
+         PHY Transfer Rate: 6.0GBPS, Unknown
+
+
+   Array: B
+      Interface Type: SAS
+      Unused Space: 0 MB
+      Status: Failed Physical Drive
+
+      One of the drives on this array have failed or has been removed.
+
+
+
+
+      Logical Drive: 2
+         Size: 2.7 TB
+         Fault Tolerance: RAID 5
+         Heads: 255
+         Sectors Per Track: 32
+         Cylinders: 65535
+         Strip Size: 256 KB
+         Status: Failed
+         Array Accelerator: Enabled
+         Unique Identifier: 600508B1001C3A0D03AE04D31166A126
+         Mount Points: None
+         Logical Drive Label: A4DF760950014380147AFEE00311
+
+      physicaldrive 4C:1:3
+         Port: 4C
+         Box: 1
+         Bay: 3
+         Status: Failed
+         Drive Type: Data Drive
+         Interface Type: SAS
+         Size: 0 MB
+
+      physicaldrive 4C:1:4
+         Port: 4C
+         Box: 1
+         Bay: 4
+         Status: Failed
+         Drive Type: Data Drive
+         Interface Type: SAS
+         Size: 0 MB
+
+      physicaldrive 5C:1:5
+         Port: 5C
+         Box: 1
+         Bay: 5
+         Status: Failed
+         Drive Type: Data Drive
+         Interface Type: SAS
+         Size: 0 MB
+
+      physicaldrive 5C:1:6
+         Port: 5C
+         Box: 1
+         Bay: 6
+         Status: Failed
+         Drive Type: Data Drive
+         Interface Type: SAS
+         Size: 0 MB
+
+      physicaldrive 5C:1:7
+         Port: 5C
+         Box: 1
+         Bay: 7
+         Status: Failed
+         Drive Type: Data Drive
+         Interface Type: SAS
+         Size: 0 MB
+
+      physicaldrive 5C:1:8
+         Port: 5C
+         Box: 1
+         Bay: 8
+         Status: Failed
+         Drive Type: Data Drive
+         Interface Type: SAS
+         Size: 0 MB
+
+
+   Expander 250
+      Device Number: 250
+      Firmware Version: 2.06
+      WWID: 50014380133E5666
+      Box: 1
+      Vendor ID: HP      
+
+   Enclosure SEP (Vendor ID HP, Model HP SAS EXP Card) 248
+      Device Number: 248
+      Firmware Version: 2.06
+      WWID: 50014380133E5665
+      Box: 2
+      Vendor ID: HP      
+      Model: HP SAS EXP Card 
+
+   SEP (Vendor ID PMCSIERA, Model  SRC 8x6G) 249
+      Device Number: 249
+      Firmware Version: RevC
+      WWID: 50014380147AFEEF
+      Vendor ID: PMCSIERA
+      Model:  SRC 8x6G       
+

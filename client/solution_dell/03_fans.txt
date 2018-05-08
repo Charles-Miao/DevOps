@@ -1,0 +1,47 @@
+Fan Probes Information
+
+----------------------------
+Main System Chassis Fans: Ok
+----------------------------
+
+Fan Redundancy : Ok
+
+Attribute : Redundancy Status
+Value     : Full
+
+Probe List
+Index                     : 0
+Status                    : Ok
+Probe Name                : System Board FAN 1 RPM
+Reading                   : 6375 RPM
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : 2025 RPM
+Maximum Failure Threshold : [N/A]
+
+Index                     : 1
+Status                    : Ok
+Probe Name                : System Board FAN 2 RPM
+Reading                   : 6450 RPM
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : 2025 RPM
+Maximum Failure Threshold : [N/A]
+
+Index                     : 2
+Status                    : Ok
+Probe Name                : System Board FAN 3 RPM
+Reading                   : 6450 RPM
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : 2025 RPM
+Maximum Failure Threshold : [N/A]
+
+Index                     : 3
+Status                    : Ok
+Probe Name                : System Board FAN 4 RPM
+Reading                   : 6375 RPM
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : 2025 RPM
+Maximum Failure Threshold : [N/A]
