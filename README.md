@@ -50,3 +50,4 @@ sudo /etc/init.d/zabbix-server restart
 - [ubuntu下使用git和github](https://blog.csdn.net/qq_31456593/article/details/79248706)
 - [如何在ubuntu下使用Github？](https://blog.csdn.net/tina_ttl/article/details/51326684)
 
+- test
