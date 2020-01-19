@@ -1,0 +1,745 @@
+  1480:20190616:153531.796 Starting Zabbix Agent [Offline Server 103]. Zabbix 3.2.0 (revision 62444).
+  1480:20190616:153531.796 **** Enabled features ****
+  1480:20190616:153531.796 IPv6 support:          YES
+  1480:20190616:153531.811 TLS support:            NO
+  1480:20190616:153531.811 **************************
+  1480:20190616:153531.811 using configuration file: C:\zabbix\zabbix_agentd.win.conf
+  1480:20190616:153531.827 agent #0 started [main process]
+  5476:20190616:153531.827 agent #1 started [collector]
+  1260:20190616:153531.827 agent #2 started [listener #1]
+   528:20190616:153531.827 agent #4 started [listener #3]
+  4704:20190616:153531.843 agent #3 started [listener #2]
+  5956:20190616:153531.874 agent #5 started [active checks #1]
+  5956:20190616:153532.390 no active checks on server [192.168.123.211:10051]: host [Offline Server 103] not found
+  5956:20190616:153732.452 no active checks on server [192.168.123.211:10051]: host [Offline Server 103] not found
+  5956:20190616:173935.749 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  5956:20190617:144238.895 active check configuration update from [192.168.123.211:10051] is working again
+   360:20190617:193018.067 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  5352:20190617:193200.301 Starting Zabbix Agent [Offline Server 103]. Zabbix 3.2.0 (revision 62444).
+  5352:20190617:193200.301 **** Enabled features ****
+  5352:20190617:193200.317 IPv6 support:          YES
+  5352:20190617:193200.317 TLS support:            NO
+  5352:20190617:193200.317 **************************
+  5352:20190617:193200.333 using configuration file: C:\zabbix\zabbix_agentd.win.conf
+  5352:20190617:193200.333 agent #0 started [main process]
+  6028:20190617:193200.333 agent #3 started [listener #2]
+   352:20190617:193200.348 agent #5 started [active checks #1]
+  6136:20190617:193200.348 agent #2 started [listener #1]
+  5584:20190617:193200.348 agent #4 started [listener #3]
+  4696:20190617:193200.364 agent #1 started [collector]
+  5836:20190617:194531.083 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  6060:20190617:194538.317 Starting Zabbix Agent [Offline Server 103]. Zabbix 3.2.0 (revision 62444).
+  6060:20190617:194538.317 **** Enabled features ****
+  6060:20190617:194538.317 IPv6 support:          YES
+  6060:20190617:194538.333 TLS support:            NO
+  6060:20190617:194538.333 **************************
+  6060:20190617:194538.333 using configuration file: C:\zabbix\zabbix_agentd.win.conf
+  6060:20190617:194538.348 agent #0 started [main process]
+  4428:20190617:194538.348 agent #2 started [listener #1]
+  2168:20190617:194538.364 agent #1 started [collector]
+  4320:20190617:194538.364 agent #3 started [listener #2]
+  1176:20190617:194538.364 agent #4 started [listener #3]
+  4256:20190617:194538.364 agent #5 started [active checks #1]
+  4692:20190617:202917.380 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  2244:20190617:202920.176 Starting Zabbix Agent [Offline Server 103]. Zabbix 3.2.0 (revision 62444).
+  2244:20190617:202920.176 **** Enabled features ****
+  2244:20190617:202920.192 IPv6 support:          YES
+  2244:20190617:202920.192 TLS support:            NO
+  2244:20190617:202920.192 **************************
+  2244:20190617:202920.192 using configuration file: C:\zabbix\zabbix_agentd.win.conf
+  2244:20190617:202920.208 agent #0 started [main process]
+  1480:20190617:202920.208 agent #1 started [collector]
+  1020:20190617:202920.223 agent #2 started [listener #1]
+  5936:20190617:202920.223 agent #3 started [listener #2]
+  4896:20190617:202920.223 agent #5 started [active checks #1]
+  4732:20190617:202920.239 agent #4 started [listener #3]
+  5468:20190617:203130.364 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  1916:20190617:203133.801 Starting Zabbix Agent [Offline Server 103]. Zabbix 3.2.0 (revision 62444).
+  1916:20190617:203133.801 **** Enabled features ****
+  1916:20190617:203133.801 IPv6 support:          YES
+  1916:20190617:203133.817 TLS support:            NO
+  1916:20190617:203133.817 **************************
+  1916:20190617:203133.817 using configuration file: C:\zabbix\zabbix_agentd.win.conf
+  1916:20190617:203133.833 agent #0 started [main process]
+   844:20190617:203133.833 agent #2 started [listener #1]
+  6092:20190617:203133.848 agent #1 started [collector]
+  2708:20190617:203133.848 agent #3 started [listener #2]
+  4672:20190617:203133.848 agent #4 started [listener #3]
+  3648:20190617:203133.864 agent #5 started [active checks #1]
+  4672:20190617:203244.661 failed to accept an incoming connection: connection from "192.168.123.103" rejected, allowed hosts: "192.168.123.211"
+  4672:20190617:203315.661 failed to accept an incoming connection: connection from "192.168.123.103" rejected, allowed hosts: "192.168.123.211"
+  4064:20190617:203325.317 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  5048:20190617:203327.114 Starting Zabbix Agent [Offline Server 103]. Zabbix 3.2.0 (revision 62444).
+  5048:20190617:203327.130 **** Enabled features ****
+  5048:20190617:203327.130 IPv6 support:          YES
+  5048:20190617:203327.130 TLS support:            NO
+  5048:20190617:203327.145 **************************
+  5048:20190617:203327.145 using configuration file: C:\zabbix\zabbix_agentd.win.conf
+  5048:20190617:203327.161 agent #0 started [main process]
+  4448:20190617:203327.161 agent #2 started [listener #1]
+  5232:20190617:203327.161 agent #1 started [collector]
+   256:20190617:203327.176 agent #4 started [listener #3]
+  4272:20190617:203327.176 agent #3 started [listener #2]
+  4060:20190617:203327.192 agent #5 started [active checks #1]
+  4448:20190617:203341.864 failed to accept an incoming connection: connection from "192.168.123.103" rejected, allowed hosts: "192.168.123.211"
+   256:20190617:203455.583 failed to accept an incoming connection: connection from "192.168.123.103" rejected, allowed hosts: "192.168.123.211"
+   256:20190617:203755.255 failed to accept an incoming connection: connection from "192.168.123.103" rejected, allowed hosts: "192.168.123.211"
+  4060:20190617:204130.208 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  4060:20190618:174150.256 active check configuration update from [192.168.123.211:10051] is working again
+  4060:20190618:181153.303 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  4060:20190618:183347.975 active check configuration update from [192.168.123.211:10051] is working again
+  4060:20190618:202951.194 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  4060:20190619:114607.776 active check configuration update from [192.168.123.211:10051] is working again
+  4060:20190619:202011.791 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  4060:20190620:140956.715 active check configuration update from [192.168.123.211:10051] is working again
+  4060:20190620:173200.106 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  4060:20190620:174023.996 active check configuration update from [192.168.123.211:10051] is working again
+  4060:20190620:201827.434 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  4060:20190623:105614.333 active check configuration update from [192.168.123.211:10051] is working again
+  5488:20190623:170910.458 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  5024:20190623:170912.301 Starting Zabbix Agent [Offline Server 103]. Zabbix 3.2.0 (revision 62444).
+  5024:20190623:170912.301 **** Enabled features ****
+  5024:20190623:170912.317 IPv6 support:          YES
+  5024:20190623:170912.317 TLS support:            NO
+  5024:20190623:170912.317 **************************
+  5024:20190623:170912.333 using configuration file: C:\zabbix\zabbix_agentd.win.conf
+  5024:20190623:170912.333 agent #0 started [main process]
+  5532:20190623:170912.348 agent #3 started [listener #2]
+  3056:20190623:170912.348 agent #2 started [listener #1]
+  1896:20190623:170912.348 agent #1 started [collector]
+  6084:20190623:170912.364 agent #4 started [listener #3]
+  5496:20190623:170912.364 agent #5 started [active checks #1]
+   424:20190623:171805.630 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  1088:20190623:171805.770 Starting Zabbix Agent [Offline Server 103]. Zabbix 3.2.0 (revision 62444).
+  1088:20190623:171805.786 **** Enabled features ****
+  1088:20190623:171805.786 IPv6 support:          YES
+  1088:20190623:171805.786 TLS support:            NO
+  1088:20190623:171805.801 **************************
+  1088:20190623:171805.801 using configuration file: C:\zabbix\zabbix_agentd.win.conf
+  1088:20190623:171805.817 agent #0 started [main process]
+  4948:20190623:171805.817 agent #1 started [collector]
+  3612:20190623:171805.833 agent #2 started [listener #1]
+  4012:20190623:171805.833 agent #3 started [listener #2]
+  5476:20190623:171805.833 agent #4 started [listener #3]
+  5316:20190623:171805.848 agent #5 started [active checks #1]
+  5316:20190625:081817.942 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  5316:20190625:095450.313 active check configuration update from [192.168.123.211:10051] is working again
+  4584:20190625:203951.656 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3056:20190625:203951.813 Starting Zabbix Agent [Offline Server 103]. Zabbix 3.2.0 (revision 62444).
+  3056:20190625:203951.813 **** Enabled features ****
+  3056:20190625:203951.813 IPv6 support:          YES
+  3056:20190625:203951.828 TLS support:            NO
+  3056:20190625:203951.828 **************************
+  3056:20190625:203951.828 using configuration file: C:\zabbix\zabbix_agentd.win.conf
+  3056:20190625:203951.844 agent #0 started [main process]
+  4860:20190625:203951.844 agent #3 started [listener #2]
+  2336:20190625:203951.860 agent #1 started [collector]
+  3492:20190625:203951.860 agent #2 started [listener #1]
+  6000:20190625:203951.875 agent #4 started [listener #3]
+  5492:20190625:203951.906 agent #5 started [active checks #1]
+  5492:20190628:103220.303 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  5492:20190628:104350.318 active check configuration update from [192.168.123.211:10051] is working again
+  5492:20190628:163756.240 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  4916:20191115:170026.194 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4916:20191115:170026.194 **** Enabled features ****
+  4916:20191115:170026.209 IPv6 support:          YES
+  4916:20191115:170026.209 TLS support:            NO
+  4916:20191115:170026.209 **************************
+  4916:20191115:170026.225 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4916:20191115:170026.225 agent #0 started [main process]
+  3624:20191115:170026.225 agent #2 started [listener #1]
+  5008:20191115:170026.241 agent #3 started [listener #2]
+  3304:20191115:170026.241 agent #1 started [collector]
+  5112:20191115:170026.241 agent #4 started [listener #3]
+  4456:20191115:170026.256 agent #5 started [active checks #1]
+  4456:20191115:170026.272 no active checks on server [192.168.123.211:10051]: host [Mainstore Server 237] not found
+  1088:20191115:170032.741 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4856:20191115:170032.788 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4856:20191115:170032.788 **** Enabled features ****
+  4856:20191115:170032.788 IPv6 support:          YES
+  4856:20191115:170032.803 TLS support:            NO
+  4856:20191115:170032.803 **************************
+  4856:20191115:170032.803 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4856:20191115:170032.819 agent #0 started [main process]
+  2856:20191115:170032.819 agent #1 started [collector]
+  1944:20191115:170032.834 agent #3 started [listener #2]
+  3492:20191115:170032.834 agent #2 started [listener #1]
+  4280:20191115:170032.834 agent #5 started [active checks #1]
+  4428:20191115:170032.850 agent #4 started [listener #3]
+  4280:20191115:170032.850 no active checks on server [192.168.123.211:10051]: host [Mainstore Server 237] not found
+  3224:20191115:170128.538 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3620:20191115:170128.584 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  3620:20191115:170128.584 **** Enabled features ****
+  3620:20191115:170128.600 IPv6 support:          YES
+  3620:20191115:170128.600 TLS support:            NO
+  3620:20191115:170128.600 **************************
+  3620:20191115:170128.616 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  3620:20191115:170128.616 agent #0 started [main process]
+   556:20191115:170128.631 agent #1 started [collector]
+  4316:20191115:170128.631 agent #5 started [active checks #1]
+  1132:20191115:170128.631 agent #3 started [listener #2]
+  1696:20191115:170128.647 agent #2 started [listener #1]
+  4700:20191115:170128.647 agent #4 started [listener #3]
+  4316:20191115:170128.663 no active checks on server [192.168.123.211:10051]: host [Mainstore Server 237] not found
+  3468:20191115:170134.694 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3812:20191115:170134.741 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  3812:20191115:170134.741 **** Enabled features ****
+  3812:20191115:170134.741 IPv6 support:          YES
+  3812:20191115:170134.756 TLS support:            NO
+  3812:20191115:170134.756 **************************
+  3812:20191115:170134.756 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  3812:20191115:170134.772 agent #0 started [main process]
+   936:20191115:170134.772 agent #1 started [collector]
+  4516:20191115:170134.788 agent #3 started [listener #2]
+   192:20191115:170134.788 agent #4 started [listener #3]
+  3596:20191115:170134.788 agent #2 started [listener #1]
+  4852:20191115:170134.803 agent #5 started [active checks #1]
+  4852:20191115:170134.803 no active checks on server [192.168.123.211:10051]: host [Mainstore Server 237] not found
+  4852:20191115:170334.647 no active checks on server [192.168.123.211:10051]: host [Mainstore Server 237] not found
+  3972:20191116:124843.015 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3696:20191116:124843.061 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  3696:20191116:124843.061 **** Enabled features ****
+  3696:20191116:124843.077 IPv6 support:          YES
+  3696:20191116:124843.077 TLS support:            NO
+  3696:20191116:124843.077 **************************
+  3696:20191116:124843.093 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  3696:20191116:124843.093 agent #0 started [main process]
+  5020:20191116:124843.108 agent #2 started [listener #1]
+  4972:20191116:124843.108 agent #4 started [listener #3]
+  4560:20191116:124843.108 agent #3 started [listener #2]
+  4816:20191116:124843.124 agent #5 started [active checks #1]
+  4204:20191116:124843.124 agent #1 started [collector]
+  1544:20191116:125205.874 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+   524:20191116:125205.921 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+   524:20191116:125205.921 **** Enabled features ****
+   524:20191116:125205.936 IPv6 support:          YES
+   524:20191116:125205.936 TLS support:            NO
+   524:20191116:125205.952 **************************
+   524:20191116:125205.952 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+   524:20191116:125205.952 agent #0 started [main process]
+  4396:20191116:125205.968 agent #1 started [collector]
+  2856:20191116:125205.968 agent #2 started [listener #1]
+  4316:20191116:125205.968 agent #3 started [listener #2]
+   196:20191116:125205.983 agent #4 started [listener #3]
+  3704:20191116:125205.983 agent #5 started [active checks #1]
+  4512:20191116:125733.405 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4712:20191116:125733.452 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4712:20191116:125733.452 **** Enabled features ****
+  4712:20191116:125733.468 IPv6 support:          YES
+  4712:20191116:125733.468 TLS support:            NO
+  4712:20191116:125733.468 **************************
+  4712:20191116:125733.483 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4712:20191116:125733.483 agent #0 started [main process]
+  2368:20191116:125733.499 agent #1 started [collector]
+  3940:20191116:125733.499 agent #2 started [listener #1]
+  1956:20191116:125733.499 agent #3 started [listener #2]
+  4112:20191116:125733.515 agent #5 started [active checks #1]
+  2136:20191116:125733.515 agent #4 started [listener #3]
+  4600:20191116:125852.390 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4084:20191116:125852.437 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4084:20191116:125852.437 **** Enabled features ****
+  4084:20191116:125852.452 IPv6 support:          YES
+  4084:20191116:125852.452 TLS support:            NO
+  4084:20191116:125852.452 **************************
+  4084:20191116:125852.468 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4084:20191116:125852.468 agent #0 started [main process]
+  4736:20191116:125852.483 agent #5 started [active checks #1]
+  3252:20191116:125852.483 agent #2 started [listener #1]
+  4576:20191116:125852.483 agent #4 started [listener #3]
+  3736:20191116:125852.499 agent #1 started [collector]
+  3196:20191116:125852.499 agent #3 started [listener #2]
+  4348:20191116:140655.968 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3172:20191116:140656.015 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  3172:20191116:140656.031 **** Enabled features ****
+  3172:20191116:140656.031 IPv6 support:          YES
+  3172:20191116:140656.031 TLS support:            NO
+  3172:20191116:140656.047 **************************
+  3172:20191116:140656.047 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  3172:20191116:140656.047 agent #0 started [main process]
+  3824:20191116:140656.062 agent #2 started [listener #1]
+  4184:20191116:140656.062 agent #1 started [collector]
+   920:20191116:140656.078 agent #3 started [listener #2]
+  2408:20191116:140656.078 agent #4 started [listener #3]
+  4504:20191116:140656.078 agent #5 started [active checks #1]
+  2032:20191116:142023.640 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4696:20191116:142023.687 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4696:20191116:142023.703 **** Enabled features ****
+  4696:20191116:142023.703 IPv6 support:          YES
+  4696:20191116:142023.703 TLS support:            NO
+  4696:20191116:142023.719 **************************
+  4696:20191116:142023.719 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4696:20191116:142023.719 agent #0 started [main process]
+  2036:20191116:142023.734 agent #2 started [listener #1]
+  3504:20191116:142023.734 agent #1 started [collector]
+   188:20191116:142023.750 agent #5 started [active checks #1]
+  1032:20191116:142023.750 agent #4 started [listener #3]
+  3696:20191116:142023.750 agent #3 started [listener #2]
+  2364:20191116:142834.266 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3024:20191116:142834.312 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  3024:20191116:142834.312 **** Enabled features ****
+  3024:20191116:142834.328 IPv6 support:          YES
+  3024:20191116:142834.328 TLS support:            NO
+  3024:20191116:142834.344 **************************
+  3024:20191116:142834.344 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  3024:20191116:142834.344 agent #0 started [main process]
+  3292:20191116:142834.359 agent #1 started [collector]
+  2368:20191116:142834.359 agent #2 started [listener #1]
+  4820:20191116:142834.375 agent #3 started [listener #2]
+  5036:20191116:142834.375 agent #4 started [listener #3]
+  4836:20191116:142834.375 agent #5 started [active checks #1]
+  4340:20191116:145509.235 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  5032:20191116:145509.281 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  5032:20191116:145509.281 **** Enabled features ****
+  5032:20191116:145509.297 IPv6 support:          YES
+  5032:20191116:145509.297 TLS support:            NO
+  5032:20191116:145509.313 **************************
+  5032:20191116:145509.313 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  5032:20191116:145509.313 agent #0 started [main process]
+   900:20191116:145509.328 agent #1 started [collector]
+  2588:20191116:145509.328 agent #2 started [listener #1]
+  4728:20191116:145509.344 agent #4 started [listener #3]
+  3564:20191116:145509.344 agent #5 started [active checks #1]
+  4764:20191116:145509.360 agent #3 started [listener #2]
+  3904:20191116:145916.500 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4316:20191116:145916.547 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4316:20191116:145916.547 **** Enabled features ****
+  4316:20191116:145916.563 IPv6 support:          YES
+  4316:20191116:145916.563 TLS support:            NO
+  4316:20191116:145916.578 **************************
+  4316:20191116:145916.578 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4316:20191116:145916.594 agent #0 started [main process]
+  4812:20191116:145916.594 agent #1 started [collector]
+  4380:20191116:145916.594 agent #2 started [listener #1]
+  3248:20191116:145916.610 agent #4 started [listener #3]
+  1444:20191116:145916.610 agent #5 started [active checks #1]
+   188:20191116:145916.610 agent #3 started [listener #2]
+  4792:20191116:150404.360 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4744:20191116:150404.406 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4744:20191116:150404.406 **** Enabled features ****
+  4744:20191116:150404.422 IPv6 support:          YES
+  4744:20191116:150404.422 TLS support:            NO
+  4744:20191116:150404.438 **************************
+  4744:20191116:150404.438 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4744:20191116:150404.438 agent #0 started [main process]
+  4432:20191116:150404.453 agent #2 started [listener #1]
+  2876:20191116:150404.453 agent #3 started [listener #2]
+  3604:20191116:150404.469 agent #1 started [collector]
+   524:20191116:150404.469 agent #5 started [active checks #1]
+  1528:20191116:150404.469 agent #4 started [listener #3]
+  4576:20191116:150711.907 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4696:20191116:150711.953 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4696:20191116:150711.969 **** Enabled features ****
+  4696:20191116:150711.969 IPv6 support:          YES
+  4696:20191116:150711.969 TLS support:            NO
+  4696:20191116:150711.985 **************************
+  4696:20191116:150711.985 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4696:20191116:150711.985 agent #0 started [main process]
+  5072:20191116:150712.000 agent #2 started [listener #1]
+  3596:20191116:150712.000 agent #5 started [active checks #1]
+  3632:20191116:150712.016 agent #1 started [collector]
+  4092:20191116:150712.016 agent #4 started [listener #3]
+  3212:20191116:150712.032 agent #3 started [listener #2]
+  5108:20191116:152405.297 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4544:20191116:152405.344 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4544:20191116:152405.360 **** Enabled features ****
+  4544:20191116:152405.360 IPv6 support:          YES
+  4544:20191116:152405.375 TLS support:            NO
+  4544:20191116:152405.375 **************************
+  4544:20191116:152405.375 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4544:20191116:152405.391 agent #0 started [main process]
+  3408:20191116:152405.391 agent #1 started [collector]
+  4080:20191116:152405.407 agent #2 started [listener #1]
+  2204:20191116:152405.407 agent #3 started [listener #2]
+  3332:20191116:152405.407 agent #4 started [listener #3]
+  3564:20191116:152405.422 agent #5 started [active checks #1]
+  4648:20191116:165215.986 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3660:20191116:165216.048 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  3660:20191116:165216.048 **** Enabled features ****
+  3660:20191116:165216.048 IPv6 support:          YES
+  3660:20191116:165216.064 TLS support:            NO
+  3660:20191116:165216.064 **************************
+  3660:20191116:165216.064 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  3660:20191116:165216.079 agent #0 started [main process]
+  4612:20191116:165216.079 agent #3 started [listener #2]
+  2144:20191116:165216.095 agent #1 started [collector]
+  3980:20191116:165216.095 agent #2 started [listener #1]
+  2828:20191116:165216.095 agent #4 started [listener #3]
+  2052:20191116:165216.111 agent #5 started [active checks #1]
+  4908:20191116:170439.361 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4940:20191116:170439.408 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4940:20191116:170439.408 **** Enabled features ****
+  4940:20191116:170439.423 IPv6 support:          YES
+  4940:20191116:170439.423 TLS support:            NO
+  4940:20191116:170439.439 **************************
+  4940:20191116:170439.439 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4940:20191116:170439.439 agent #0 started [main process]
+  4312:20191116:170439.455 agent #1 started [collector]
+  3480:20191116:170439.455 agent #5 started [active checks #1]
+  1032:20191116:170439.470 agent #2 started [listener #1]
+  3816:20191116:170439.470 agent #3 started [listener #2]
+  3208:20191116:170439.470 agent #4 started [listener #3]
+  1112:20191116:173727.158 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3620:20191116:173727.205 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  3620:20191116:173727.205 **** Enabled features ****
+  3620:20191116:173727.221 IPv6 support:          YES
+  3620:20191116:173727.221 TLS support:            NO
+  3620:20191116:173727.236 **************************
+  3620:20191116:173727.236 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  3620:20191116:173727.236 agent #0 started [main process]
+  3928:20191116:173727.252 agent #1 started [collector]
+  5052:20191116:173727.252 agent #2 started [listener #1]
+  4372:20191116:173727.267 agent #3 started [listener #2]
+  4948:20191116:173727.267 agent #4 started [listener #3]
+  4396:20191116:173727.267 agent #5 started [active checks #1]
+  3848:20191118:095704.245 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4284:20191118:095704.308 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4284:20191118:095704.323 **** Enabled features ****
+  4284:20191118:095704.323 IPv6 support:          YES
+  4284:20191118:095704.323 TLS support:            NO
+  4284:20191118:095704.339 **************************
+  4284:20191118:095704.339 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4284:20191118:095704.386 agent #0 started [main process]
+   184:20191118:095704.401 agent #3 started [listener #2]
+  3596:20191118:095704.401 agent #2 started [listener #1]
+  3544:20191118:095704.401 agent #4 started [listener #3]
+  3024:20191118:095704.417 agent #1 started [collector]
+  4780:20191118:095704.417 agent #5 started [active checks #1]
+  4412:20191118:131206.372 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  1824:20191118:131206.419 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  1824:20191118:131206.419 **** Enabled features ****
+  1824:20191118:131206.434 IPv6 support:          YES
+  1824:20191118:131206.434 TLS support:            NO
+  1824:20191118:131206.450 **************************
+  1824:20191118:131206.450 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  1824:20191118:131206.466 agent #0 started [main process]
+  4640:20191118:131206.466 agent #4 started [listener #3]
+  4432:20191118:131206.481 agent #2 started [listener #1]
+  2364:20191118:131206.481 agent #1 started [collector]
+  4452:20191118:131206.481 agent #3 started [listener #2]
+  2004:20191118:131206.497 agent #5 started [active checks #1]
+  4432:20191118:140951.373 failed to accept an incoming connection: connection from "127.0.0.1" rejected, allowed hosts: "192.168.123.211"
+  4432:20191118:141029.029 failed to accept an incoming connection: connection from "192.168.123.237" rejected, allowed hosts: "192.168.123.211"
+  2004:20191118:142609.826 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  2004:20191118:172950.468 active check configuration update from [192.168.123.211:10051] is working again
+  4432:20191118:174100.640 failed to accept an incoming connection: connection from "192.168.123.237" rejected, allowed hosts: "192.168.123.211"
+  4432:20191118:174158.000 failed to accept an incoming connection: connection from "127.0.0.1" rejected, allowed hosts: "192.168.123.211"
+  4640:20191118:174250.625 failed to accept an incoming connection: connection from "192.168.123.237" rejected, allowed hosts: "192.168.123.211"
+  2972:20191118:174403.078 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3508:20191118:174403.125 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  3508:20191118:174403.140 **** Enabled features ****
+  3508:20191118:174403.140 IPv6 support:          YES
+  3508:20191118:174403.140 TLS support:            NO
+  3508:20191118:174403.156 **************************
+  3508:20191118:174403.156 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  3508:20191118:174403.156 agent #0 started [main process]
+  4736:20191118:174403.172 agent #1 started [collector]
+  2456:20191118:174403.172 agent #2 started [listener #1]
+  2140:20191118:174403.187 agent #3 started [listener #2]
+  3820:20191118:174403.187 agent #4 started [listener #3]
+  3952:20191118:174403.203 agent #5 started [active checks #1]
+  2140:20191118:174405.937 failed to accept an incoming connection: connection from "192.168.123.237" rejected, allowed hosts: "192.168.123.211"
+  2456:20191118:174421.406 failed to accept an incoming connection: connection from "192.168.123.237" rejected, allowed hosts: "192.168.123.211"
+  2456:20191118:174839.234 failed to accept an incoming connection: connection from "192.168.123.237" rejected, allowed hosts: "192.168.123.211"
+  3820:20191118:174859.172 failed to accept an incoming connection: connection from "127.0.0.1" rejected, allowed hosts: "192.168.123.211"
+  4992:20191118:175159.797 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+   920:20191118:175159.844 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+   920:20191118:175159.844 **** Enabled features ****
+   920:20191118:175159.859 IPv6 support:          YES
+   920:20191118:175159.859 TLS support:            NO
+   920:20191118:175159.859 **************************
+   920:20191118:175159.875 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+   920:20191118:175159.875 agent #0 started [main process]
+  2872:20191118:175159.890 agent #1 started [collector]
+  4108:20191118:175159.890 agent #3 started [listener #2]
+  2060:20191118:175159.906 agent #2 started [listener #1]
+  3272:20191118:175159.906 agent #4 started [listener #3]
+  5036:20191118:175159.906 agent #5 started [active checks #1]
+  5036:20191118:180002.640 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  5036:20191118:180514.250 active check configuration update from [192.168.123.211:10051] is working again
+  3476:20191118:201020.251 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4508:20191118:201020.298 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4508:20191118:201020.314 **** Enabled features ****
+  4508:20191118:201020.314 IPv6 support:          YES
+  4508:20191118:201020.329 TLS support:            NO
+  4508:20191118:201020.329 **************************
+  4508:20191118:201020.329 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4508:20191118:201020.361 agent #0 started [main process]
+  1304:20191118:201020.376 agent #1 started [collector]
+  2132:20191118:201020.376 agent #3 started [listener #2]
+  4952:20191118:201020.392 agent #4 started [listener #3]
+  3200:20191118:201020.392 agent #2 started [listener #1]
+  4184:20191118:201020.392 agent #5 started [active checks #1]
+  4184:20191120:160544.706 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  4184:20191120:160953.440 active check configuration update from [192.168.123.211:10051] is working again
+  4392:20191121:181558.838 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4148:20191121:181558.963 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4148:20191121:181558.979 **** Enabled features ****
+  4148:20191121:181558.979 IPv6 support:          YES
+  4148:20191121:181558.994 TLS support:            NO
+  4148:20191121:181558.994 **************************
+  4148:20191121:181559.010 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4148:20191121:181559.041 agent #0 started [main process]
+  3228:20191121:181559.041 agent #1 started [collector]
+  3048:20191121:181559.057 agent #4 started [listener #3]
+  3272:20191121:181559.057 agent #2 started [listener #1]
+  3304:20191121:181559.072 agent #3 started [listener #2]
+  2776:20191121:181559.072 agent #5 started [active checks #1]
+  2776:20191122:090033.444 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  2776:20191122:090442.444 active check configuration update from [192.168.123.211:10051] is working again
+  4228:20191122:101441.647 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4008:20191122:101441.694 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4008:20191122:101441.710 **** Enabled features ****
+  4008:20191122:101441.710 IPv6 support:          YES
+  4008:20191122:101441.710 TLS support:            NO
+  4008:20191122:101441.726 **************************
+  4008:20191122:101441.726 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4008:20191122:101441.772 agent #0 started [main process]
+  3420:20191122:101441.788 agent #1 started [collector]
+  4420:20191122:101441.788 agent #2 started [listener #1]
+  4716:20191122:101441.788 agent #3 started [listener #2]
+  3248:20191122:101441.804 agent #4 started [listener #3]
+  4796:20191122:101441.804 agent #5 started [active checks #1]
+  3560:20191122:104735.085 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4920:20191122:104735.132 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4920:20191122:104735.132 **** Enabled features ****
+  4920:20191122:104735.148 IPv6 support:          YES
+  4920:20191122:104735.148 TLS support:            NO
+  4920:20191122:104735.148 **************************
+  4920:20191122:104735.163 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4920:20191122:104735.163 agent #0 started [main process]
+  5052:20191122:104735.179 agent #2 started [listener #1]
+  1080:20191122:104735.179 agent #1 started [collector]
+  1060:20191122:104735.179 agent #3 started [listener #2]
+  1120:20191122:104735.195 agent #4 started [listener #3]
+  4648:20191122:104735.195 agent #5 started [active checks #1]
+  4092:20191122:105118.945 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4612:20191122:105118.992 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4612:20191122:105118.992 **** Enabled features ****
+  4612:20191122:105119.007 IPv6 support:          YES
+  4612:20191122:105119.007 TLS support:            NO
+  4612:20191122:105119.007 **************************
+  4612:20191122:105119.023 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4612:20191122:105119.023 agent #0 started [main process]
+  3736:20191122:105119.038 agent #1 started [collector]
+  4828:20191122:105119.038 agent #2 started [listener #1]
+  5060:20191122:105119.054 agent #4 started [listener #3]
+  4280:20191122:105119.054 agent #5 started [active checks #1]
+  4404:20191122:105119.054 agent #3 started [listener #2]
+  4280:20191122:112723.320 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  4280:20191122:113750.555 active check configuration update from [192.168.123.211:10051] is working again
+  4280:20191126:140209.340 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  4280:20191126:143159.794 active check configuration update from [192.168.123.211:10051] is working again
+  4252:20191126:164728.154 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4412:20191126:164728.217 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4412:20191126:164728.217 **** Enabled features ****
+  4412:20191126:164728.217 IPv6 support:          YES
+  4412:20191126:164728.232 TLS support:            NO
+  4412:20191126:164728.232 **************************
+  4412:20191126:164728.232 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4412:20191126:164728.248 agent #0 started [main process]
+  3636:20191126:164728.248 agent #1 started [collector]
+  4344:20191126:164728.264 agent #2 started [listener #1]
+  3316:20191126:164728.264 agent #3 started [listener #2]
+  4476:20191126:164728.279 agent #4 started [listener #3]
+  4528:20191126:164728.279 agent #5 started [active checks #1]
+  5000:20191127:102805.567 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4652:20191127:102805.614 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4652:20191127:102805.629 **** Enabled features ****
+  4652:20191127:102805.629 IPv6 support:          YES
+  4652:20191127:102805.645 TLS support:            NO
+  4652:20191127:102805.645 **************************
+  4652:20191127:102805.645 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4652:20191127:102805.692 agent #0 started [main process]
+  3588:20191127:102805.692 agent #4 started [listener #3]
+  3608:20191127:102805.692 agent #3 started [listener #2]
+  4292:20191127:102805.708 agent #1 started [collector]
+  1040:20191127:102805.708 agent #2 started [listener #1]
+  3824:20191127:102805.723 agent #5 started [active checks #1]
+  3076:20191127:104144.692 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4992:20191127:104144.739 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4992:20191127:104144.755 **** Enabled features ****
+  4992:20191127:104144.755 IPv6 support:          YES
+  4992:20191127:104144.755 TLS support:            NO
+  4992:20191127:104144.770 **************************
+  4992:20191127:104144.770 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4992:20191127:104144.786 agent #0 started [main process]
+  2136:20191127:104144.786 agent #1 started [collector]
+  1416:20191127:104144.786 agent #5 started [active checks #1]
+  4148:20191127:104144.801 agent #3 started [listener #2]
+  4464:20191127:104144.801 agent #2 started [listener #1]
+  3496:20191127:104144.817 agent #4 started [listener #3]
+  4676:20191127:104723.302 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3940:20191127:104723.348 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  3940:20191127:104723.348 **** Enabled features ****
+  3940:20191127:104723.364 IPv6 support:          YES
+  3940:20191127:104723.364 TLS support:            NO
+  3940:20191127:104723.380 **************************
+  3940:20191127:104723.380 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  3940:20191127:104723.395 agent #0 started [main process]
+  5032:20191127:104723.395 agent #2 started [listener #1]
+   900:20191127:104723.395 agent #1 started [collector]
+  4224:20191127:104723.411 agent #3 started [listener #2]
+  4252:20191127:104723.411 agent #4 started [listener #3]
+  4480:20191127:104723.427 agent #5 started [active checks #1]
+  4480:20191127:110929.739 active check "system.NIC_reachable[Ethernet adapter BACK]" is not supported: Timeout while executing a shell script.
+  4640:20191127:112516.552 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4980:20191127:112516.599 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4980:20191127:112516.599 **** Enabled features ****
+  4980:20191127:112516.614 IPv6 support:          YES
+  4980:20191127:112516.614 TLS support:            NO
+  4980:20191127:112516.630 **************************
+  4980:20191127:112516.630 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4980:20191127:112516.646 agent #0 started [main process]
+  1416:20191127:112516.646 agent #1 started [collector]
+  3892:20191127:112516.646 agent #2 started [listener #1]
+  3604:20191127:112516.661 agent #3 started [listener #2]
+  4116:20191127:112516.661 agent #4 started [listener #3]
+  4536:20191127:112516.677 agent #5 started [active checks #1]
+  1152:20191127:113358.771 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  1944:20191127:113358.818 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  1944:20191127:113358.833 **** Enabled features ****
+  1944:20191127:113358.833 IPv6 support:          YES
+  1944:20191127:113358.849 TLS support:            NO
+  1944:20191127:113358.849 **************************
+  1944:20191127:113358.849 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  1944:20191127:113358.864 agent #0 started [main process]
+  5016:20191127:113358.864 agent #1 started [collector]
+  4176:20191127:113358.880 agent #2 started [listener #1]
+   188:20191127:113358.880 agent #4 started [listener #3]
+    32:20191127:113358.896 agent #3 started [listener #2]
+  3008:20191127:113358.896 agent #5 started [active checks #1]
+  3008:20191129:110203.401 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  3008:20191129:111848.167 active check configuration update from [192.168.123.211:10051] is working again
+   148:20191129:172040.558 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+   792:20191129:172040.620 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+   792:20191129:172040.620 **** Enabled features ****
+   792:20191129:172040.636 IPv6 support:          YES
+   792:20191129:172040.636 TLS support:            NO
+   792:20191129:172040.651 **************************
+   792:20191129:172040.651 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+   792:20191129:172040.651 agent #0 started [main process]
+  4536:20191129:172040.667 agent #1 started [collector]
+  4192:20191129:172040.667 agent #2 started [listener #1]
+  4700:20191129:172040.683 agent #3 started [listener #2]
+   476:20191129:172040.683 agent #4 started [listener #3]
+  4884:20191129:172040.683 agent #5 started [active checks #1]
+   508:20191129:173337.524 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  1804:20191129:173337.571 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  1804:20191129:173337.571 **** Enabled features ****
+  1804:20191129:173337.586 IPv6 support:          YES
+  1804:20191129:173337.586 TLS support:            NO
+  1804:20191129:173337.602 **************************
+  1804:20191129:173337.602 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  1804:20191129:173337.602 agent #0 started [main process]
+  4328:20191129:173337.617 agent #1 started [collector]
+  4500:20191129:173337.617 agent #2 started [listener #1]
+  4088:20191129:173337.633 agent #4 started [listener #3]
+  3592:20191129:173337.633 agent #5 started [active checks #1]
+  3908:20191129:173337.649 agent #3 started [listener #2]
+  3412:20191129:175949.600 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3076:20191129:175949.647 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  3076:20191129:175949.662 **** Enabled features ****
+  3076:20191129:175949.662 IPv6 support:          YES
+  3076:20191129:175949.662 TLS support:            NO
+  3076:20191129:175949.678 **************************
+  3076:20191129:175949.678 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  3076:20191129:175949.694 agent #0 started [main process]
+  4752:20191129:175949.694 agent #1 started [collector]
+  4284:20191129:175949.709 agent #4 started [listener #3]
+  4980:20191129:175949.709 agent #2 started [listener #1]
+  4468:20191129:175949.709 agent #3 started [listener #2]
+   148:20191129:175949.725 agent #5 started [active checks #1]
+  3864:20191129:182056.429 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3576:20191129:182056.476 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  3576:20191129:182056.492 **** Enabled features ****
+  3576:20191129:182056.492 IPv6 support:          YES
+  3576:20191129:182056.492 TLS support:            NO
+  3576:20191129:182056.508 **************************
+  3576:20191129:182056.508 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  3576:20191129:182056.554 agent #0 started [main process]
+  4820:20191129:182056.570 agent #1 started [collector]
+  3992:20191129:182056.570 agent #2 started [listener #1]
+  4972:20191129:182056.570 agent #3 started [listener #2]
+  4764:20191129:182056.586 agent #4 started [listener #3]
+  4080:20191129:182056.586 agent #5 started [active checks #1]
+  4836:20191129:192048.772 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  4968:20191129:192048.834 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  4968:20191129:192048.834 **** Enabled features ****
+  4968:20191129:192048.834 IPv6 support:          YES
+  4968:20191129:192048.850 TLS support:            NO
+  4968:20191129:192048.850 **************************
+  4968:20191129:192048.866 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  4968:20191129:192048.866 agent #0 started [main process]
+  4916:20191129:192048.881 agent #1 started [collector]
+  4792:20191129:192048.881 agent #3 started [listener #2]
+  3092:20191129:192048.881 agent #4 started [listener #3]
+  4680:20191129:192048.897 agent #2 started [listener #1]
+  4404:20191129:192048.897 agent #5 started [active checks #1]
+  1972:20191129:193158.475 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  1840:20191129:193356.835 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  1840:20191129:193356.835 **** Enabled features ****
+  1840:20191129:193356.835 IPv6 support:          YES
+  1840:20191129:193356.835 TLS support:            NO
+  1840:20191129:193356.835 **************************
+  1840:20191129:193356.835 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  1840:20191129:193356.835 agent #0 started [main process]
+  1856:20191129:193356.835 agent #1 started [collector]
+  1872:20191129:193356.835 agent #5 started [active checks #1]
+  1860:20191129:193356.851 agent #2 started [listener #1]
+  1864:20191129:193356.851 agent #3 started [listener #2]
+  1868:20191129:193356.851 agent #4 started [listener #3]
+  1728:20191129:202810.698 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  1800:20191129:202810.745 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  1800:20191129:202810.745 **** Enabled features ****
+  1800:20191129:202810.761 IPv6 support:          YES
+  1800:20191129:202810.761 TLS support:            NO
+  1800:20191129:202810.776 **************************
+  1800:20191129:202810.776 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  1800:20191129:202810.792 agent #0 started [main process]
+  3628:20191129:202810.792 agent #2 started [listener #1]
+  4780:20191129:202810.792 agent #1 started [collector]
+  2228:20191129:202810.808 agent #3 started [listener #2]
+  5052:20191129:202810.808 agent #5 started [active checks #1]
+  2768:20191129:202810.854 agent #4 started [listener #3]
+  4500:20191203:133219.568 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  3352:20191203:133219.630 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  3352:20191203:133219.630 **** Enabled features ****
+  3352:20191203:133219.630 IPv6 support:          YES
+  3352:20191203:133219.646 TLS support:            NO
+  3352:20191203:133219.646 **************************
+  3352:20191203:133219.662 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  3352:20191203:133219.662 agent #0 started [main process]
+  4360:20191203:133219.677 agent #2 started [listener #1]
+   496:20191203:133219.677 agent #1 started [collector]
+  4304:20191203:133219.693 agent #3 started [listener #2]
+  2300:20191203:133219.693 agent #4 started [listener #3]
+  4540:20191203:133219.693 agent #5 started [active checks #1]
+  4540:20191203:181021.412 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: Connection refused.)
+  4540:20191203:185321.261 active check configuration update from [192.168.123.211:10051] is working again
+  4540:20191226:155508.323 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  4540:20191226:161634.138 active check configuration update from [192.168.123.211:10051] is working again
+  3132:20191227:153042.598 Zabbix Agent stopped. Zabbix 3.2.0 (revision 62444).
+  1068:20191227:153042.660 Starting Zabbix Agent [Mainstore Server 237]. Zabbix 3.2.0 (revision 62444).
+  1068:20191227:153042.660 **** Enabled features ****
+  1068:20191227:153042.676 IPv6 support:          YES
+  1068:20191227:153042.676 TLS support:            NO
+  1068:20191227:153042.691 **************************
+  1068:20191227:153042.691 using configuration file: C:\Zabbix\zabbix_agentd.win.conf
+  1068:20191227:153042.707 agent #0 started [main process]
+  1920:20191227:153042.707 agent #2 started [listener #1]
+  4932:20191227:153042.707 agent #1 started [collector]
+  3708:20191227:153042.723 agent #4 started [listener #3]
+  3612:20191227:153042.723 agent #3 started [listener #2]
+  2916:20191227:153042.769 agent #5 started [active checks #1]
+  2916:20191229:154654.711 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  2916:20191229:172840.301 active check configuration update from [192.168.123.211:10051] is working again
+  2916:20191229:182043.322 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  2916:20191229:182801.808 active check configuration update from [192.168.123.211:10051] is working again
+  2916:20191229:184404.591 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  2916:20191229:185328.904 active check configuration update from [192.168.123.211:10051] is working again
+  2916:20191230:112136.838 active check configuration update from [192.168.123.211:10051] started to fail (ZBX_TCP_READ() timed out)
+  2916:20191230:112852.370 active check configuration update from [192.168.123.211:10051] is working again
+  2916:20191230:141656.085 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  2916:20191230:142515.524 active check configuration update from [192.168.123.211:10051] is working again
+  2916:20191231:144125.949 active check configuration update from [192.168.123.211:10051] started to fail (cannot connect to [[192.168.123.211]:10051]: (null))
+  2916:20191231:155242.754 active check configuration update from [192.168.123.211:10051] is working again
