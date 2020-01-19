@@ -1,3 +1,6 @@
+[Demo笔记](https://www.notion.so/Zabbix-Introduction-89242b87d7b5400ba580971cb6c0f8d0)
+===
+
 使用手册
 ---
 
@@ -29,6 +32,3 @@ Client配置
 vim /etc/zabbix/zabbix_server.conf
 sudo /etc/init.d/zabbix-server restart
 ```
-
-[Demo笔记](https://www.notion.so/Zabbix-Introduction-89242b87d7b5400ba580971cb6c0f8d0)
----
