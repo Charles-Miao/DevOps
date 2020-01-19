@@ -4,8 +4,11 @@
 使用手册
 ---
 
-[Zabbix官方手册](https://www.zabbix.com/documentation/3.4/zh/manual)
+- [Zabbix官方手册](https://www.zabbix.com/documentation/3.4/zh/manual)
 
-[Zabbix 3.0从入门到精通(Zabbix使用详解)](http://www.cnblogs.com/clsn/p/7885990.html)
+- [Zabbix 3.0从入门到精通(Zabbix使用详解)](http://www.cnblogs.com/clsn/p/7885990.html)
 
-[ZABBIX教程从入门到精通](http://www.ttlsa.com/zabbix/follow-ttlsa-to-study-zabbix/)
+- [ZABBIX教程从入门到精通](http://www.ttlsa.com/zabbix/follow-ttlsa-to-study-zabbix/)
+
+[Zabbix in Action](https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix)
+---

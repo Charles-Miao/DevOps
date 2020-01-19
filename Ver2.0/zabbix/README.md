@@ -1,9 +1,9 @@
 Server端安装配置
 ---
 
-[Ubuntu Zabbix服务端配置](https://my.oschina.net/zhangyangyang/blog/841043)
+- [Ubuntu Zabbix服务端配置](https://my.oschina.net/zhangyangyang/blog/841043)
 
-[安装异常: The frontend does not match Zabbix database ](https://blog.csdn.net/purplegalaxy/article/details/37819899)
+- [安装异常: The frontend does not match Zabbix database ](https://blog.csdn.net/purplegalaxy/article/details/37819899)
 
 ```shell
 # 时间同步
@@ -31,7 +31,7 @@ echo "$3" | mail -s "$2" "$1"
 [监控模板](https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/template)
 ---
 
-HP服务器透过iLO口snmp协议进行硬件监控
+**HP服务器透过iLO口snmp协议进行硬件监控**
 
 - 系统需要开启SNMP服务，并在security选项卡中开放public只读功能
 - 需要安装iLO 3/4 Channel Interface Driver
@@ -42,7 +42,7 @@ HP服务器透过iLO口snmp协议进行硬件监控
 Client配置
 ---
 
-[Windows客户端配置](https://www.jianshu.com/p/9befd0bc7188)
+- [Windows客户端配置](https://www.jianshu.com/p/9befd0bc7188)
 
 ```sheel
 #无法抓取Client端数据，需要设定server端端口，并重启zabbix
