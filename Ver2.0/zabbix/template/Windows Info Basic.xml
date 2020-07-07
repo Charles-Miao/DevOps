@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.2</version>
-    <date>2020-01-19T01:22:49Z</date>
+    <date>2020-07-07T08:52:23Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -257,6 +257,49 @@
                     <applications>
                         <application>
                             <name>General</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>Activation status</name>
+                    <type>2</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>system.activation</key>
+                    <delay>0</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -1425,15 +1468,15 @@
                             <expression>{Windows Info Basic:system.NIC_reachable[{#ADAPTER}].last()}&lt;1 and {Windows Info Basic:system.NIC_reachable[{#ADAPTER}].change()}&lt;&gt;0</expression>
                             <recovery_mode>1</recovery_mode>
                             <recovery_expression>{Windows Info Basic:system.NIC_reachable[{#ADAPTER}].last()}=1 or {Windows Info Basic:system.NIC_reachable[{#ADAPTER}].avg(1d)}=-1</recovery_expression>
-                            <name>{#ADAPTER} cannot reachable</name>
+                            <name>{HOST.NAME} {#ADAPTER} cannot reachable</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>4</priority>
+                            <priority>3</priority>
                             <description/>
                             <type>0</type>
-                            <manual_close>0</manual_close>
+                            <manual_close>1</manual_close>
                             <dependencies/>
                             <tags/>
                         </trigger_prototype>
@@ -1663,7 +1706,7 @@
                             <expression>{Windows Info Basic:vfs.fs.size[{#FSNAME},pfree].last(0)}&lt;10</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
-                            <name>Free disk space is less than 10% on volume {#FSNAME}</name>
+                            <name>{HOST.NAME} Free disk space is less than 10% on volume {#FSNAME}</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
                             <url/>
@@ -1789,18 +1832,18 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Windows Info Basic:vm.memory.size[pavailable].min(10m)}&lt;10</expression>
+            <expression>{Windows Info Basic:system.activation.last()}&lt;&gt;1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Windows Info Basic:vm.memory.size[pavailable].min(10m)}&gt;20</recovery_expression>
-            <name>Lack of available virtual memory on server {HOST.NAME}</name>
+            <recovery_expression>{Windows Info Basic:system.activation.last()}=1</recovery_expression>
+            <name>Activation fail on server {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
             <status>0</status>
-            <priority>3</priority>
+            <priority>2</priority>
             <description/>
             <type>0</type>
-            <manual_close>0</manual_close>
+            <manual_close>1</manual_close>
             <dependencies/>
             <tags/>
         </trigger>
@@ -1813,7 +1856,23 @@
             <correlation_tag/>
             <url/>
             <status>0</status>
-            <priority>3</priority>
+            <priority>2</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{Windows Info Basic:vm.memory.size[pavailable].min(10m)}&lt;10</expression>
+            <recovery_mode>1</recovery_mode>
+            <recovery_expression>{Windows Info Basic:vm.memory.size[pavailable].min(10m)}&gt;20</recovery_expression>
+            <name>Lack of free memory on {HOST.NAME} (Percentage)</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
             <description/>
             <type>0</type>
             <manual_close>0</manual_close>
@@ -1829,7 +1888,7 @@
             <correlation_tag/>
             <url/>
             <status>0</status>
-            <priority>3</priority>
+            <priority>2</priority>
             <description/>
             <type>0</type>
             <manual_close>0</manual_close>
@@ -1840,7 +1899,7 @@
             <expression>{Windows Info Basic:system.sync_time.last()}&lt;&gt;1</expression>
             <recovery_mode>1</recovery_mode>
             <recovery_expression>{Windows Info Basic:system.sync_time.last()}=1</recovery_expression>
-            <name>Sync time fail</name>
+            <name>Sync time fail on server {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -1848,7 +1907,7 @@
             <priority>2</priority>
             <description/>
             <type>0</type>
-            <manual_close>0</manual_close>
+            <manual_close>1</manual_close>
             <dependencies/>
             <tags/>
         </trigger>
@@ -1861,7 +1920,7 @@
             <correlation_tag/>
             <url/>
             <status>0</status>
-            <priority>3</priority>
+            <priority>2</priority>
             <description/>
             <type>0</type>
             <manual_close>0</manual_close>

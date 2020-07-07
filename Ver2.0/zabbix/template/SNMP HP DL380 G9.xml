@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.2</version>
-    <date>2020-01-19T01:21:19Z</date>
+    <date>2020-07-07T08:51:07Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -351,6 +351,49 @@ CPQHLTH-MIB::&#13;
                     <valuemap>
                         <name>cpqCondition</name>
                     </valuemap>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>Ambient Temperature Celsius</name>
+                    <type>4</type>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>.1.3.6.1.4.1.232.6.2.6.8.1.4.1.1</snmp_oid>
+                    <key>cpqHeTemperatureCelsius</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>HP Temperature</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
                     <logtimefmt/>
                 </item>
                 <item>
@@ -930,7 +973,7 @@ cpqSiSysSerialNum OBJECT-TYPE&#13;
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>2</priority>
+                            <priority>3</priority>
                             <description/>
                             <type>0</type>
                             <manual_close>0</manual_close>
@@ -962,7 +1005,7 @@ cpqSiSysSerialNum OBJECT-TYPE&#13;
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>2</priority>
+                            <priority>4</priority>
                             <description/>
                             <type>0</type>
                             <manual_close>0</manual_close>
@@ -972,7 +1015,7 @@ cpqSiSysSerialNum OBJECT-TYPE&#13;
                     </trigger_prototypes>
                     <graph_prototypes>
                         <graph_prototype>
-                            <name>Power Supplies</name>
+                            <name>Power Supplies {#SNMPVALUE}</name>
                             <width>900</width>
                             <height>200</height>
                             <yaxismin>0.0000</yaxismin>
@@ -1100,15 +1143,31 @@ cpqSiSysSerialNum OBJECT-TYPE&#13;
                     </item_prototypes>
                     <trigger_prototypes>
                         <trigger_prototype>
-                            <expression>{SNMP HP DL380 G9:cpqSeCpuStatus[{#SNMPINDEX}].last()}&gt;2</expression>
+                            <expression>{SNMP HP DL380 G9:cpqSeCpuStatus[{#SNMPINDEX}].last()}=3</expression>
                             <recovery_mode>1</recovery_mode>
                             <recovery_expression>{SNMP HP DL380 G9:cpqSeCpuStatus[{#SNMPINDEX}].last()}=2</recovery_expression>
-                            <name>CPU [{#SNMPVALUE}] is not OK</name>
+                            <name>CPU [{#SNMPVALUE}] is degraded</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>3</priority>
+                            <priority>4</priority>
+                            <description/>
+                            <type>0</type>
+                            <manual_close>0</manual_close>
+                            <dependencies/>
+                            <tags/>
+                        </trigger_prototype>
+                        <trigger_prototype>
+                            <expression>{SNMP HP DL380 G9:cpqSeCpuStatus[{#SNMPINDEX}].last()}&gt;3</expression>
+                            <recovery_mode>1</recovery_mode>
+                            <recovery_expression>{SNMP HP DL380 G9:cpqSeCpuStatus[{#SNMPINDEX}].last()}=2</recovery_expression>
+                            <name>CPU [{#SNMPVALUE}] is  failed</name>
+                            <correlation_mode>0</correlation_mode>
+                            <correlation_tag/>
+                            <url/>
+                            <status>0</status>
+                            <priority>5</priority>
                             <description/>
                             <type>0</type>
                             <manual_close>0</manual_close>
@@ -1556,7 +1615,7 @@ CPQIDA-MIB::&#13;
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>2</priority>
+                            <priority>3</priority>
                             <description>The battery provides backup power for the cache memory, to prevent data loss in the event of a power failure.  This battery has failed, so the Drive Array Controller will disable that cache, and disk performance will be bad until the battery is replaced.  The battery needs to be replaced.  Suggested actions are to write a ticket to replace the battery, then acknowledge the alert, writing the ticket number in the notes.  This will prevent a stream of continuing alerts.&#13;
 &#13;
 When the battery is on the edge of failing, it can move in and out of the failed state. This can have the effect of restarting an alert which has already been acknowledged.  To prevent this, this trigger is held until there has been no failure reported in the last 24 hours.&#13;
@@ -1564,7 +1623,7 @@ When the battery is on the edge of failing, it can move in and out of the failed
 HP System Management Homepage (may require starting service hpsmhd):&#13;
 https://{HOST.CONN}:2381</description>
                             <type>0</type>
-                            <manual_close>0</manual_close>
+                            <manual_close>1</manual_close>
                             <dependencies/>
                             <tags/>
                         </trigger_prototype>
@@ -1993,15 +2052,34 @@ CPQIDA-MIB::&#13;
                     </item_prototypes>
                     <trigger_prototypes>
                         <trigger_prototype>
-                            <expression>{SNMP HP DL380 G9:cpqDaCntlrBoardCondition[{#SNMPINDEX}].last()}&gt;2</expression>
+                            <expression>{SNMP HP DL380 G9:cpqDaCntlrBoardCondition[{#SNMPINDEX}].last()}=3</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
-                            <name>{HOST.NAME}: HP Drive Array Controller Board {#SNMPINDEX} is degraded or failed</name>
+                            <name>{HOST.NAME}: HP Drive Array Controller Board {#SNMPINDEX} is degraded</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
                             <priority>3</priority>
+                            <description>This HP Drive Array Controller Controller Board is reporting a degraded or failed condition.  Check the iLO or preferably the HP System Management Homepage for more information.  This may require first starting the Array Configuration Utility from the command line (&quot;/opt/compaq/cpqacuxe/bld/cpqacuxe -R&quot;)&#13;
+&#13;
+HP System Management Homepage (may require starting service hpsmhd):&#13;
+https://{HOST.CONN}:2381</description>
+                            <type>0</type>
+                            <manual_close>0</manual_close>
+                            <dependencies/>
+                            <tags/>
+                        </trigger_prototype>
+                        <trigger_prototype>
+                            <expression>{SNMP HP DL380 G9:cpqDaCntlrBoardCondition[{#SNMPINDEX}].last()}&gt;3</expression>
+                            <recovery_mode>0</recovery_mode>
+                            <recovery_expression/>
+                            <name>{HOST.NAME}: HP Drive Array Controller Board {#SNMPINDEX} is failed</name>
+                            <correlation_mode>0</correlation_mode>
+                            <correlation_tag/>
+                            <url/>
+                            <status>0</status>
+                            <priority>4</priority>
                             <description>This HP Drive Array Controller Controller Board is reporting a degraded or failed condition.  Check the iLO or preferably the HP System Management Homepage for more information.  This may require first starting the Array Configuration Utility from the command line (&quot;/opt/compaq/cpqacuxe/bld/cpqacuxe -R&quot;)&#13;
 &#13;
 HP System Management Homepage (may require starting service hpsmhd):&#13;
@@ -2231,7 +2309,7 @@ if the fan type is tachOutput.&quot;</description>
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>2</priority>
+                            <priority>3</priority>
                             <description/>
                             <type>0</type>
                             <manual_close>0</manual_close>
@@ -2638,7 +2716,7 @@ CPQIDA-MIB::&#13;
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>4</priority>
+                            <priority>5</priority>
                             <description>This logical drive drive (volume) has failed.  For more information, go to the system management homepage, then check the array configuration utility (may need to be started from the command line first).  This alert is very serious (data has been lost) because failure of a logical drive (in RAID configuration with redundancy) is normally caused by multiple physical drive failures.&#13;
 &#13;
 HP System Management Homepage (may require starting service hpsmhd):&#13;
@@ -2657,7 +2735,7 @@ https://{HOST.CONN}:2381</description>
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>2</priority>
+                            <priority>4</priority>
                             <description>This logical drive drive (volume) is degraded.  For more information, go to the system management homepage, then check the array configuration utility (may need to be started from the command line first).&#13;
 &#13;
 This alert normally is normally means that redundancy has been lost because an underlying physical drive has failed.  This means that now a single drive failure could cause data loss.  This alert is normally accompanied by an alert from the physical drive which has failed.   Suggested actions are to write a ticket to replace the failed physical drive, then acknowledge the physical and logical drive alerts, writing the ticket number in the notes.&#13;
@@ -2976,7 +3054,7 @@ CPQHLTH-MIB::&#13;
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>3</priority>
+                            <priority>4</priority>
                             <description>The correctable error count for this memory module has been exceeded.  It needs to be replaced.  Suggested actions are to write a ticket to replace the module, then acknowledge the alert, writing the ticket number in the notes.&#13;
 &#13;
 HP System Management Homepage (may require starting service hpsmhd):&#13;
@@ -3485,13 +3563,13 @@ CPQIDA-MIB::&#13;
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>3</priority>
+                            <priority>4</priority>
                             <description>This drive has failed.  It needs to be replaced.  This alert will normally be accompanied by an alert from a logical drive which has now lost redundancy. This means that now a single drive failure can cause data loss.  Suggested actions are to write a ticket to replace the failed physical drive, then acknowledge the physical and logical drive alerts, writing the ticket number in the notes.&#13;
 &#13;
 HP System Management Homepage (may require starting service hpsmhd):&#13;
 https://{HOST.CONN}:2381</description>
                             <type>0</type>
-                            <manual_close>0</manual_close>
+                            <manual_close>1</manual_close>
                             <dependencies/>
                             <tags/>
                         </trigger_prototype>
@@ -3504,13 +3582,13 @@ https://{HOST.CONN}:2381</description>
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>2</priority>
+                            <priority>3</priority>
                             <description>This drive is degraded (may mean predictive failure).  It should be replaced.  Suggested actions are to write a ticket to replace the drive, then acknowledge the alert, writing the ticket number in the notes.&#13;
 &#13;
 HP System Management Homepage (may require starting service hpsmhd):&#13;
 https://{HOST.CONN}:2381</description>
                             <type>0</type>
-                            <manual_close>0</manual_close>
+                            <manual_close>1</manual_close>
                             <dependencies/>
                             <tags/>
                         </trigger_prototype>
@@ -3817,7 +3895,7 @@ temperature.&quot;&#13;
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>2</priority>
+                            <priority>3</priority>
                             <description/>
                             <type>0</type>
                             <manual_close>0</manual_close>
@@ -3833,7 +3911,7 @@ temperature.&quot;&#13;
                             <correlation_tag/>
                             <url/>
                             <status>0</status>
-                            <priority>2</priority>
+                            <priority>4</priority>
                             <description/>
                             <type>0</type>
                             <manual_close>0</manual_close>
@@ -3841,52 +3919,7 @@ temperature.&quot;&#13;
                             <tags/>
                         </trigger_prototype>
                     </trigger_prototypes>
-                    <graph_prototypes>
-                        <graph_prototype>
-                            <name>Temperature</name>
-                            <width>900</width>
-                            <height>200</height>
-                            <yaxismin>0.0000</yaxismin>
-                            <yaxismax>100.0000</yaxismax>
-                            <show_work_period>1</show_work_period>
-                            <show_triggers>1</show_triggers>
-                            <type>0</type>
-                            <show_legend>1</show_legend>
-                            <show_3d>0</show_3d>
-                            <percent_left>0.0000</percent_left>
-                            <percent_right>0.0000</percent_right>
-                            <ymin_type_1>0</ymin_type_1>
-                            <ymax_type_1>0</ymax_type_1>
-                            <ymin_item_1>0</ymin_item_1>
-                            <ymax_item_1>0</ymax_item_1>
-                            <graph_items>
-                                <graph_item>
-                                    <sortorder>0</sortorder>
-                                    <drawtype>0</drawtype>
-                                    <color>1A7C11</color>
-                                    <yaxisside>0</yaxisside>
-                                    <calc_fnc>2</calc_fnc>
-                                    <type>0</type>
-                                    <item>
-                                        <host>SNMP HP DL380 G9</host>
-                                        <key>cpqHeTemperatureCelsius[{#SNMPINDEX}]</key>
-                                    </item>
-                                </graph_item>
-                                <graph_item>
-                                    <sortorder>1</sortorder>
-                                    <drawtype>0</drawtype>
-                                    <color>F63100</color>
-                                    <yaxisside>0</yaxisside>
-                                    <calc_fnc>2</calc_fnc>
-                                    <type>0</type>
-                                    <item>
-                                        <host>SNMP HP DL380 G9</host>
-                                        <key>cpqHeTemperatureThreshold[{#SNMPINDEX}]</key>
-                                    </item>
-                                </graph_item>
-                            </graph_items>
-                        </graph_prototype>
-                    </graph_prototypes>
+                    <graph_prototypes/>
                     <host_prototypes/>
                 </discovery_rule>
             </discovery_rules>
@@ -3897,6 +3930,22 @@ temperature.&quot;&#13;
         </template>
     </templates>
     <triggers>
+        <trigger>
+            <expression>{SNMP HP DL380 G9:cpqHeTemperatureCelsius.min(#6)}&gt;25</expression>
+            <recovery_mode>0</recovery_mode>
+            <recovery_expression/>
+            <name>{HOST.NAME}: Ambient Temperature Celsius is High</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>1</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
         <trigger>
             <expression>{SNMP HP DL380 G9:cpqHeResilientMemCondition.last()}=3</expression>
             <recovery_mode>0</recovery_mode>
@@ -4007,6 +4056,40 @@ https://{HOST.CONN}:2381</description>
             <tags/>
         </trigger>
     </triggers>
+    <graphs>
+        <graph>
+            <name>Ambient temperature</name>
+            <width>900</width>
+            <height>200</height>
+            <yaxismin>0.0000</yaxismin>
+            <yaxismax>100.0000</yaxismax>
+            <show_work_period>1</show_work_period>
+            <show_triggers>1</show_triggers>
+            <type>0</type>
+            <show_legend>1</show_legend>
+            <show_3d>0</show_3d>
+            <percent_left>0.0000</percent_left>
+            <percent_right>0.0000</percent_right>
+            <ymin_type_1>0</ymin_type_1>
+            <ymax_type_1>0</ymax_type_1>
+            <ymin_item_1>0</ymin_item_1>
+            <ymax_item_1>0</ymax_item_1>
+            <graph_items>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>1A7C11</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>SNMP HP DL380 G9</host>
+                        <key>cpqHeTemperatureCelsius</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+    </graphs>
     <value_maps>
         <value_map>
             <name>cpqCondition</name>

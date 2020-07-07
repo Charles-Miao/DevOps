@@ -1,0 +1,199 @@
+
+Host Name:                 P5TE-21F01259
+OS Name:                   Microsoft Windows Server 2012 R2 Standard
+OS Version:                6.3.9600 N/A Build 9600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Server
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Windows User
+Registered Organization:   
+Product ID:                00252-70000-00000-AA535
+Original Install Date:     7/11/2019, 8:03:14 AM
+System Boot Time:          6/26/2020, 4:30:17 PM
+System Manufacturer:       Dell Inc.
+System Model:              PowerEdge 2900
+System Type:               x64-based PC
+Processor(s):              2 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 23 Stepping 6 GenuineIntel ~2327 Mhz
+                           [02]: Intel64 Family 6 Model 23 Stepping 6 GenuineIntel ~2327 Mhz
+BIOS Version:              Dell Inc. 2.3.1, 4/29/2008
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              N/A
+Time Zone:                 (UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi
+Total Physical Memory:     16,379 MB
+Available Physical Memory: 8,400 MB
+Virtual Memory: Max Size:  18,811 MB
+Virtual Memory: Available: 12,095 MB
+Virtual Memory: In Use:    6,716 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\P5TE-21F01259
+Hotfix(s):                 136 Hotfix(s) Installed.
+                           [01]: KB2868626
+                           [02]: KB2883200
+                           [03]: KB2887595
+                           [04]: KB2894852
+                           [05]: KB2894856
+                           [06]: KB2903939
+                           [07]: KB2911106
+                           [08]: KB2919355
+                           [09]: KB2919394
+                           [10]: KB2928680
+                           [11]: KB2966826
+                           [12]: KB2966828
+                           [13]: KB2967917
+                           [14]: KB2968296
+                           [15]: KB2972103
+                           [16]: KB2977765
+                           [17]: KB2978041
+                           [18]: KB2978126
+                           [19]: KB2999226
+                           [20]: KB3000850
+                           [21]: KB3003057
+                           [22]: KB3008242
+                           [23]: KB3014442
+                           [24]: KB3019978
+                           [25]: KB3021674
+                           [26]: KB3021910
+                           [27]: KB3023219
+                           [28]: KB3023222
+                           [29]: KB3023266
+                           [30]: KB3032663
+                           [31]: KB3034348
+                           [32]: KB3035126
+                           [33]: KB3037576
+                           [34]: KB3037579
+                           [35]: KB3042058
+                           [36]: KB3042085
+                           [37]: KB3044374
+                           [38]: KB3045685
+                           [39]: KB3045755
+                           [40]: KB3045999
+                           [41]: KB3046017
+                           [42]: KB3059317
+                           [43]: KB3061512
+                           [44]: KB3071756
+                           [45]: KB3072307
+                           [46]: KB3074228
+                           [47]: KB3074545
+                           [48]: KB3074548
+                           [49]: KB3077715
+                           [50]: KB3082089
+                           [51]: KB3084135
+                           [52]: KB3086255
+                           [53]: KB3097992
+                           [54]: KB3097997
+                           [55]: KB3098779
+                           [56]: KB3109103
+                           [57]: KB3110329
+                           [58]: KB3126434
+                           [59]: KB3126587
+                           [60]: KB3127222
+                           [61]: KB3133043
+                           [62]: KB3139398
+                           [63]: KB3139914
+                           [64]: KB3146723
+                           [65]: KB3151864
+                           [66]: KB3155784
+                           [67]: KB3156059
+                           [68]: KB3159398
+                           [69]: KB3161949
+                           [70]: KB3162343
+                           [71]: KB3172729
+                           [72]: KB3173424
+                           [73]: KB3175024
+                           [74]: KB3178539
+                           [75]: KB3192392
+                           [76]: KB3197873
+                           [77]: KB3204802
+                           [78]: KB3205400
+                           [79]: KB4012213
+                           [80]: KB4014550
+                           [81]: KB4014587
+                           [82]: KB4015547
+                           [83]: KB4019213
+                           [84]: KB4022717
+                           [85]: KB4025333
+                           [86]: KB4034672
+                           [87]: KB4038793
+                           [88]: KB4040956
+                           [89]: KB4040967
+                           [90]: KB4040972
+                           [91]: KB4040981
+                           [92]: KB4041687
+                           [93]: KB4054522
+                           [94]: KB4093115
+                           [95]: KB4095515
+                           [96]: KB4096236
+                           [97]: KB4103715
+                           [98]: KB4284878
+                           [99]: KB4338605
+                           [100]: KB4338824
+                           [101]: KB4343205
+                           [102]: KB4343888
+                           [103]: KB4344153
+                           [104]: KB4344166
+                           [105]: KB4344178
+                           [106]: KB4457143
+                           [107]: KB4462941
+                           [108]: KB4467703
+                           [109]: KB4470499
+                           [110]: KB4480964
+                           [111]: KB4483469
+                           [112]: KB4487028
+                           [113]: KB4489883
+                           [114]: KB4493467
+                           [115]: KB4495586
+                           [116]: KB4495615
+                           [117]: KB4499165
+                           [118]: KB4503290
+                           [119]: KB4506962
+                           [120]: KB4506977
+                           [121]: KB4507457
+                           [122]: KB4512489
+                           [123]: KB4514338
+                           [124]: KB4514350
+                           [125]: KB4516064
+                           [126]: KB4519990
+                           [127]: KB4524445
+                           [128]: KB4525250
+                           [129]: KB4530730
+                           [130]: KB4532931
+                           [131]: KB4532946
+                           [132]: KB4532961
+                           [133]: KB4532970
+                           [134]: KB4534251
+                           [135]: KB4534309
+                           [136]: KB4534297
+Network Card(s):           6 NIC(s) Installed.
+                           [01]: Broadcom BCM5708C NetXtreme II GigE (NDIS VBD Client)
+                                 Connection Name: SFCS
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 172.30.26.63
+                                 [02]: fe80::dd42:9fa8:d8c9:9346
+                           [02]: Intel(R) PRO/1000 PT Dual Port Server Adapter
+                                 Connection Name: Ethernet 2
+                                 Status:          Media disconnected
+                           [03]: Intel(R) PRO/1000 PT Dual Port Server Adapter
+                                 Connection Name: Ethernet 3
+                                 Status:          Media disconnected
+                           [04]: Intel(R) PRO/1000 PT Dual Port Server Adapter
+                                 Connection Name: Ethernet 4
+                                 Status:          Media disconnected
+                           [05]: Intel(R) PRO/1000 PT Dual Port Server Adapter
+                                 Connection Name: Ethernet 5
+                                 Status:          Media disconnected
+                           [06]: Broadcom BCM5708C NetXtreme II GigE (NDIS VBD Client)
+                                 Connection Name: BACK
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.123.237
+                                 [02]: fe80::9464:f1e1:ed59:4475
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: No
+                           Second Level Address Translation: No
+                           Data Execution Prevention Available: Yes

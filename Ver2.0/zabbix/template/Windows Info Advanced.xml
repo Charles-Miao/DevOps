@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.2</version>
-    <date>2020-01-19T01:22:34Z</date>
+    <date>2020-07-07T08:52:19Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -208,7 +208,7 @@
             <expression>{Windows Info Advanced:officescan.client.ptn.last()}&lt;&gt;{Windows Info Advanced:officescan.server.ptn.last()} and {Windows Info Advanced:officescan.client.ptn.last()}&lt;&gt;{Windows Info Advanced:officescan.server.ptn.last()}-200 and {Windows Info Advanced:officescan.client.ptn.last()}&lt;&gt;{Windows Info Advanced:officescan.server.ptn.last()}+200 and {Windows Info Advanced:officescan.client.ptn.last()}&lt;&gt;{Windows Info Advanced:officescan.server.ptn.last()}-400 and {Windows Info Advanced:officescan.client.ptn.last()}&lt;&gt;{Windows Info Advanced:officescan.server.ptn.last()}+400</expression>
             <recovery_mode>1</recovery_mode>
             <recovery_expression>{Windows Info Advanced:officescan.client.ptn.last()}={Windows Info Advanced:officescan.server.ptn.last()} or {Windows Info Advanced:officescan.client.ptn.last()}&lt;&gt;{Windows Info Advanced:officescan.server.ptn.last()}-200 or {Windows Info Advanced:officescan.client.ptn.last()}&lt;&gt;{Windows Info Advanced:officescan.server.ptn.last()}+200</recovery_expression>
-            <name>OfficeScan pattern is not the latest</name>
+            <name>OfficeScan pattern is not the latest on server {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -224,7 +224,7 @@
             <expression>{Windows Info Advanced:service.info[OfficeScan NT Listener,state].min(#3)}&lt;&gt;0</expression>
             <recovery_mode>1</recovery_mode>
             <recovery_expression>{Windows Info Advanced:service.info[OfficeScan NT Listener,state].last()}=0</recovery_expression>
-            <name>Service &quot;OfficeScan NT Listener&quot; is not running</name>
+            <name>Service &quot;OfficeScan NT Listener&quot; is not running on server {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -240,7 +240,7 @@
             <expression>{Windows Info Advanced:service.info[OfficeScan NT RealTime Scan,state].min(#3)}&lt;&gt;0</expression>
             <recovery_mode>1</recovery_mode>
             <recovery_expression>{Windows Info Advanced:service.info[OfficeScan NT RealTime Scan,state].last()}=0</recovery_expression>
-            <name>Service &quot;OfficeScan NT RealTime Scan&quot; is not running</name>
+            <name>Service &quot;OfficeScan NT RealTime Scan&quot; is not running on server {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
