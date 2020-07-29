@@ -4,7 +4,7 @@ import configparser
 
 def get_sync_time_result():
 
-#	net_use=os.popen(r'net use \\192.168.123.71 /user:administrator TBUITEMEZ900!!').readlines()
+#	net_use=os.popen(r'net use \\192.168.123.71 /user:administrator XXX').readlines()
 #	print(net_use)
 #	net_time=os.popen(r'net time \\192.168.123.71 /set /y').readlines()
 #	print(net_time)
@@ -26,7 +26,7 @@ def get_sync_time_result():
 		os.remove(sync_time_log)
 	
 	#call sync time batch file
-	os.system(r"C:\Zabbix\windows\PSTools\psexec -u administrator -p Z900TE@Quality!!# C:\Zabbix\windows\Sync_time.bat")
+	os.system(r"C:\Zabbix\windows\PSTools\psexec -u administrator -p XXX C:\Zabbix\windows\Sync_time.bat")
 	
 	time.sleep(30)
 	
