@@ -32,9 +32,9 @@ def get_os_version_detail():
     return conent[0]
 
 def sync_time():
-    conent=os.popen("echo '660824miao' | sudo -S ntpdate -u 172.30.30.7").readlines()
+    conent=os.popen("echo 'XXX' | sudo -S ntpdate -u 172.30.30.7").readlines()
     time.sleep(5)
-    conent=os.popen("echo '660824miao' | sudo -S ntpdate -u 172.30.30.7").readlines()
+    conent=os.popen("echo 'XXX' | sudo -S ntpdate -u 172.30.30.7").readlines()
     if len(conent)==0:
         result=0
     for index in range(len(conent)):
@@ -45,7 +45,7 @@ def sync_time():
     return result 
 
 def get_Install_Date():
-    conent=os.popen("echo '660824miao' | sudo -S passwd -S root").readlines()
+    conent=os.popen("echo 'XXX' | sudo -S passwd -S root").readlines()
     install_date=re.split(r'[ ]',conent[0])	
     date_time=install_date[2]+" 0:0:0 AM"
     timeArray=time.strptime(date_time, "%m/%d/%Y %H:%M:%S %p")
