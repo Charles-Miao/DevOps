@@ -50,6 +50,7 @@ Gitblit、Gitea 和Gogs 都是自建Git 服务器的选择，它们各有优缺�
 - 服务器安装Gitea参见：[服务器（Windows系统）自建git服务器超详细教程](https://www.cnblogs.com/alexgl2008/articles/17948253)
 - 自动导出脚本[GitCheckOut](https://github.com/Charles-Miao/DevOps/tree/master/2025/Gitea+LFS/GitCheckOut)，命令行指令参见：[常用 Git 命令清单](https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 - [Gitea自带邮件通知](https://blog.csdn.net/huyuchengus/article/details/128475776)无法实现Commit Notifier，故而自行编写[CheckGit](https://github.com/Charles-Miao/DevOps/tree/master/2025/Gitea+LFS/CheckGit)实现之
+- [使用NSSM - 将任何exe应用封装成windows服务](https://www.cnblogs.com/05-hust/p/17407534.html)
 - 客户端使用说明参见：[测试程式版本控制系统说明.pptx](https://github.com/Charles-Miao/DevOps/tree/master/2025/Gitea+LFS/测试程式版本控制系统说明.pptx)
 
 ### 流程说明：
