@@ -53,6 +53,25 @@ Gitblit、Gitea 和Gogs 都是自建Git 服务器的选择，它们各有优缺�
 - [使用NSSM - 将任何exe应用封装成windows服务](https://www.cnblogs.com/05-hust/p/17407534.html)
 - 客户端使用说明参见：[测试程式版本控制系统说明.pptx](https://github.com/Charles-Miao/DevOps/tree/master/2025/Gitea+LFS/测试程式版本控制系统说明.pptx)
 
+#### 问题1：使用过程中，更新仓库特别慢
+#### 解决方案：
+- 启用LFS功能，参见: https://blog.csdn.net/gitblog_00736/article/details/150995071
+```bash
+cd my-repository
+git lfs track "*.zip"
+git lfs track "*.7z"
+git add .gitattributes
+git commit -m "enable LFS support"
+git push origin main
+```
+- 开启LFS功能前的大文件处理
+```bash
+# 迁移仓库中所有历史提交的 7z 和 zip 文件到 LFS
+git lfs migrate import --include="*.7z,*.zip" --everything
+# 若使用TortoiseGit工具，请在push时勾选“force-with-lease” 
+git push --force-with-lease origin main
+```
+
 ### 流程说明：
 1. SW工程师透过TortoiseGit将testtool/ testimage/ ATOtools/ Shippingimage/ BOIS等文件上传到Git仓库中
 2. Git仓库自动导出到服务器中，同时发送邮件给相关人员，以便了解变更记录
