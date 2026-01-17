@@ -1,3 +1,24 @@
+## 2026
+### Burn-in网络架构优化
+#### 背景：
+- 原规划Burn-in网络架构每条线3个子网，每个子网搭配1台服务器，并配1台备用服务器，3条线total需要12台服务器，每个子网设计最大agent 700台，相对于H客户1000台的agent有充分的冗余，但是online服务器故障，需要手动切换备份服务器
+- 备份服务器*3是由收购W公司提供，已经使用5年以上，故障率高，同时这些机器都是W自产机器，无有效售后
+- IT发现电源/内存/SSD故障，购买备品更换，只有1台可以正常开机，另外服务器存在电源持续故障，BIOS持续故障导致无法启动等问题，如果进一步分析，可能需要花费更多的备品费用，但是并不会解决故障率高的问题
+
+#### 优化方案：
+- L1保留原有方案，3个子网分别控制7，7，6个老化架，每个子网agent数量分别为616，616，528，唯一维修ok的服务器作为备份服务器
+- L2使用2+1的方案，2台服务器做负载均衡，1台作为备份，total控制13个老化架，平均每台负责的agent为1144/2=572
+- L3使用2+1的方案，2台服务器做负载均衡，1台作为备份，total控制56个老化架，平均每台负责的agent为1400/2=700
+
+#### 实施细则：
+- 网络中继（同一台服务器给不同子网分配DHCP），设定ok
+- DHCP负载均衡，log DFS同步，设定ok
+- 备份服务器设定，DFS设定ok，DHCP故障转移IT不建议2+1的架构，建议备份服务器DHCP配置但不启用，出现异常时IT手动启用备份服务器
+
+#### 改善优点：
+- L2和L3，online服务器故障，2台服务器可以自动故障转移，如果长期无法恢复，备份服务器的DHCP需要IT手动加入负载均衡
+- L1是集中老化架上架机台，load会集中在某一台服务器上，但是L2和L3虽然集中老化架上架机台，但是服务器会交替使用，分担了服务器的load，有效提高了服务器的瞬时使用率，相对于L1即稳定，又高效
+
 ## 2025
 
 ### [Keepalived for SWDL & Burn-in](https://github.com/Charles-Miao/DevOps/tree/master/2025/Keepalived_for_SWDL&Burn-in)
@@ -31,12 +52,12 @@
 - 冲突和数据不一致：检查是否有文件冲突，使用 冲突和删除文件夹 功能来处理文件冲突。
 - 复制错误：通过事件查看器查看 DFS 复制相关的错误事件，根据错误代码进行问题诊断。
 
-### [Gitea+LFS](https://github.com/Charles-Miao/DevOps/tree/master/2025/Gitea+LFS)
+### [本地化部署Gitea+LFS实现测试程序版本控制](https://github.com/Charles-Miao/DevOps/tree/master/2025/Gitea+LFS)
 
 - 项目由来：使用SVN管理测试程式变更，无法处理2GB以上的文件。故而引入自建Git服务器+LFS（Large File Storage）
 - 详细参见：[Gitea+LFS.md](https://github.com/Charles-Miao/DevOps/tree/master/2025/Gitea+LFS/Gitea+LFS.md)
 
-### [Zabbix_Agent](https://github.com/Charles-Miao/DevOps/tree/master/2025/Zabbix_Agent)
+### [Zabbix文件同步监控](https://github.com/Charles-Miao/DevOps/tree/master/2025/Zabbix_Agent)
 
 - 流程图：[Flowchart](https://github.com/Charles-Miao/DevOps/blob/master/2025/Zabbix_Agent/flowchart.md)
 - 使用[syncFileServer](https://github.com/Charles-Miao/Batch-in-Action/tree/master/2025/SyncFileServer)中的批处理脚本，同步文件服务器上的文件到备份服务器
