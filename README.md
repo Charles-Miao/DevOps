@@ -1,4 +1,12 @@
 ## 2026
+### Log服务器优化建议
+#### 问题：
+- 目前架构无法实现log服务器的高可用
+- 单台服务器的磁盘读性能告警，磁盘的读请求响应时间持续偏高
+
+#### [解决方案](https://www.doubao.com/thread/wda4f36da18105c87)：
+- 两个ftp节点（配置相同）+DFS+Nginx
+
 ### Burn-in网络架构优化
 #### 背景：
 - 原规划Burn-in网络架构每条线3个子网，每个子网搭配1台服务器，并配1台备用服务器，3条线total需要12台服务器，每个子网设计最大agent 700台，相对于H客户1000台的agent有充分的冗余，但是online服务器故障，需要手动切换备份服务器
@@ -20,6 +28,25 @@
 - L1是集中老化架上架机台，load会集中在某一台服务器上，但是L2和L3虽然集中老化架上架机台，但是服务器会交替使用，分担了服务器的load，有效提高了服务器的瞬时使用率，相对于L1即稳定，又高效
 
 ## 2025
+### IMGit优化建议
+#### 背景：
+- IMGit每年需要发费900,000+RMB软件授权费用
+
+#### 架构对比：
+| A客户 |  B客户 |
+| :---: |  :---: |
+| 使用IMGit软件download image |  使用Windows自带服务，并使用DISM download image |
+| 每条线只有2台Image服务器 |  每条线有5台Image服务器 |
+| 所有服务器全部放主机房，汇聚交换机的带宽只有20Gib |  所有服务器全部放产线，每台服务器的带宽都是20Gib |
+| Edge交换机的主干只有2Gib |  Edge交换机全部为光纤连接，带宽有10Gib |
+
+#### 优化建议：
+- 将A客户中的2台WDS服务器扩容至7TB，升级为Image服务器，这样每条线total有4台Image服务器，费用大约30000RMB/线
+- 将Image服务器拿到产线机柜，可以突破汇聚交换机的20Gib带宽限制，费用0
+- 升级Edge交换机为光纤传输，费用大约72000RMB/线
+
+#### 预估费用：
+- 30000RMB/线 + 72000RMB/线 = 102000RMB/线
 
 ### [Keepalived for SWDL & Burn-in](https://github.com/Charles-Miao/DevOps/tree/master/2025/Keepalived_for_SWDL&Burn-in)
 
